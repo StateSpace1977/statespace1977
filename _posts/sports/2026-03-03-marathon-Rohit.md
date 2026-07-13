@@ -17,12 +17,12 @@ I was never into fitness. Running even 500 meters used to feel exhausting, and w
 That moment slowly changed my relationship with running. What started as a small challenge turned into a consistent journey. Over the next 1.5 years my distances gradually increased — 5 km runs became regular, 10 km runs became comfortable, and the dream of completing a full marathon slowly started to feel possible.
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 20px 0;">
-  <img src="/assets/img/posts/marathon/image1.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image2.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image3.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image4.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image5.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image6.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image1.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image2.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image3.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image4.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image5.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image6.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
 </div>
 
 **Race Day – Planning and Patience** 
@@ -34,9 +34,9 @@ I divided the 42 km marathon into smaller sections so that the distance felt man
 The real challenge begins after the 30 km mark. This is the point where fatigue starts to appear and the body begins asking you to slow down. At that moment the marathon becomes more mental than physical. Every step forward becomes a small victory.
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 20px 0;">
-  <img src="/assets/img/posts/marathon/image7.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image8.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image9.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image7.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image8.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image9.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
 </div>
 
 **More Than Just a Race** 
@@ -48,30 +48,30 @@ I also received amazing support from friends during the race. Ritik Chawre was p
 When I finally crossed the finish line and received my medal, it felt like much more than completing a race. It represented months of training, discipline, patience and belief. The marathon changed my perspective — it showed me that progress happens step by step, kilometer by kilometer. 
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 20px 0;">
-  <img src="/assets/img/posts/marathon/image10.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="/assets/img/posts/marathon/image11.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image10.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="/statespace1977/assets/img/posts/marathon/image11.png" style="height: 150px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
 </div>
 
 **If you ever lose faith in humanity, watch a marathon. If you ever lose faith in yourself, run a marathon.**
 
-[image1]: /assets/img/posts/marathon/image1.png
+[image1]: /statespace1977/assets/img/posts/marathon/image1.png
 
-[image2]: /assets/img/posts/marathon/image2.png
+[image2]: /statespace1977/assets/img/posts/marathon/image2.png
 
-[image3]: /assets/img/posts/marathon/image3.png
+[image3]: /statespace1977/assets/img/posts/marathon/image3.png
 
-[image4]: /assets/img/posts/marathon/image4.png
+[image4]: /statespace1977/assets/img/posts/marathon/image4.png
 
-[image5]: /assets/img/posts/marathon/image5.png
+[image5]: /statespace1977/assets/img/posts/marathon/image5.png
 
-[image6]: /assets/img/posts/marathon/image6.png
+[image6]: /statespace1977/assets/img/posts/marathon/image6.png
 
-[image7]: /assets/img/posts/marathon/image7.png
+[image7]: /statespace1977/assets/img/posts/marathon/image7.png
 
-[image8]: /assets/img/posts/marathon/image8.png
+[image8]: /statespace1977/assets/img/posts/marathon/image8.png
 
-[image9]: /assets/img/posts/marathon/image9.png
+[image9]: /statespace1977/assets/img/posts/marathon/image9.png
 
-[image10]: /assets/img/posts/marathon/image10.png
+[image10]: /statespace1977/assets/img/posts/marathon/image10.png
 
-[image11]: /assets/img/posts/marathon/image11.png
+[image11]: /statespace1977/assets/img/posts/marathon/image11.png

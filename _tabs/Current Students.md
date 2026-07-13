@@ -12,7 +12,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Shreyas N B.jpg" alt="Shreyas N B" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/others/Shreyas N B.jpg" alt="Shreyas N B" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shreyas N B</span>
@@ -33,7 +33,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Vaibhav Upadhyay.jpg" alt="Vaibhav Upadhyay" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/others/Vaibhav Upadhyay.jpg" alt="Vaibhav Upadhyay" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vaibhav Upadhyay</span>
@@ -54,7 +54,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Arkadeep Saha.jpg" alt="Arkadeep Saha" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/others/Arkadeep Saha.jpg" alt="Arkadeep Saha" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arkadeep Saha</span>
@@ -85,7 +85,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Rohit Patil.jpg" alt="Rohit Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Rohit Patil.jpg" alt="Rohit Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit Patil</span>
@@ -106,7 +106,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Kadapalla Nithin Kumar.jpg" alt="Kadapalla Nithin Kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Kadapalla Nithin Kumar.jpg" alt="Kadapalla Nithin Kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Kadapalla Nithin Kumar</span>
@@ -127,7 +127,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Prabhat Patel.jpg" alt="Prabhat Patel" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Prabhat Patel.jpg" alt="Prabhat Patel" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Prabhat Patel</span>
@@ -148,7 +148,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/vinayak bhardwaj.jpg" alt="vinayak bhardwaj" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/vinayak bhardwaj.jpg" alt="vinayak bhardwaj" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">vinayak bhardwaj</span>
@@ -169,7 +169,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Anuj Yadav</span>
@@ -190,7 +190,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Prashik Patil.jpg" alt="Prashik Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Prashik Patil.jpg" alt="Prashik Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Prashik Patil</span>
@@ -211,7 +211,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Anupam.jpg" alt="Anupam" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Anupam.jpg" alt="Anupam" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Anupam</span>
@@ -232,7 +232,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Carlyn Medona.jpg" alt="Carlyn Medona" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Carlyn Medona.jpg" alt="Carlyn Medona" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Carlyn Medona</span>
@@ -253,7 +253,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Shailaja Manchala.jpg" alt="Shailaja Manchala" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Shailaja Manchala.jpg" alt="Shailaja Manchala" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shailaja Manchala</span>
@@ -274,7 +274,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Narendra Muley.jpg" alt="Narendra Muley" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Narendra Muley.jpg" alt="Narendra Muley" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Narendra Muley</span>
@@ -295,7 +295,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Jatinkumar.jpg" alt="Jatinkumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Jatinkumar.jpg" alt="Jatinkumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Jatinkumar</span>
@@ -316,7 +316,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Paras Pandey.jpg" alt="Paras Pandey" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Paras Pandey.jpg" alt="Paras Pandey" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Paras Pandey</span>
@@ -337,7 +337,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Chanakya vihar Challa.jpg" alt="Chanakya vihar Challa" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Chanakya vihar Challa.jpg" alt="Chanakya vihar Challa" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Chanakya vihar Challa</span>
@@ -358,7 +358,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Rohit kumar.jpg" alt="Rohit kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Rohit kumar.jpg" alt="Rohit kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit kumar</span>
@@ -379,7 +379,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Chandra Vikas.jpg" alt="Chandra Vikas" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/24/Chandra Vikas.jpg" alt="Chandra Vikas" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Chandra Vikas</span>
@@ -410,7 +410,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Adarsh Korde.jpg" alt="Adarsh Korde" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Adarsh Korde.jpg" alt="Adarsh Korde" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Adarsh Korde</span>
@@ -431,7 +431,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Shubh Shah.jpg" alt="Shubh Shah" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Shubh Shah.jpg" alt="Shubh Shah" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shubh Shah</span>
@@ -452,7 +452,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/SARMAN SINGH.jpg" alt="SARMAN SINGH" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/SARMAN SINGH.jpg" alt="SARMAN SINGH" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">SARMAN SINGH</span>
@@ -473,7 +473,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Soham Banerjee.jpg" alt="Soham Banerjee" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Soham Banerjee.jpg" alt="Soham Banerjee" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Soham Banerjee</span>
@@ -494,7 +494,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Rehan Khan.jpg" alt="Rehan Khan" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Rehan Khan.jpg" alt="Rehan Khan" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rehan Khan</span>
@@ -515,7 +515,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Md Saif Ali.jpg" alt="Md Saif Ali" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Md Saif Ali.jpg" alt="Md Saif Ali" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Md Saif Ali</span>
@@ -536,7 +536,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Vinay Bujja.jpg" alt="Vinay Bujja" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Vinay Bujja.jpg" alt="Vinay Bujja" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vinay Bujja</span>
@@ -557,7 +557,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Tejash Raj.jpg" alt="Tejash Raj" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Tejash Raj.jpg" alt="Tejash Raj" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Tejash Raj</span>
@@ -578,7 +578,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Pamanji Nagaraju.jpg" alt="Pamanji Nagaraju" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Pamanji Nagaraju.jpg" alt="Pamanji Nagaraju" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Pamanji Nagaraju</span>
@@ -599,7 +599,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/MADDILI AKHIL.jpg" alt="MADDILI AKHIL" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/MADDILI AKHIL.jpg" alt="MADDILI AKHIL" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">MADDILI AKHIL</span>
@@ -620,7 +620,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Arunodaya devi.jpg" alt="Arunodaya devi" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Arunodaya devi.jpg" alt="Arunodaya devi" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arunodaya devi</span>
@@ -641,7 +641,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/PRIYA BISWAS.jpg" alt="PRIYA BISWAS" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/PRIYA BISWAS.jpg" alt="PRIYA BISWAS" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">PRIYA BISWAS</span>
@@ -662,7 +662,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Rahul Kumar.jpg" alt="Rahul Kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Rahul Kumar.jpg" alt="Rahul Kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rahul Kumar</span>
@@ -683,7 +683,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/LOHITH NAIK R.jpg" alt="LOHITH NAIK R" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/LOHITH NAIK R.jpg" alt="LOHITH NAIK R" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">LOHITH NAIK R</span>
@@ -704,7 +704,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Arun P Madhu.jpg" alt="Arun P Madhu" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Arun P Madhu.jpg" alt="Arun P Madhu" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arun P Madhu</span>
@@ -725,7 +725,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Allan Joseph.jpg" alt="Allan Joseph" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Allan Joseph.jpg" alt="Allan Joseph" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Allan Joseph</span>
@@ -746,7 +746,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Amit.jpg" alt="Amit" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Amit.jpg" alt="Amit" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Amit</span>
@@ -767,7 +767,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Ajay J.jpg" alt="Ajay J" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Ajay J.jpg" alt="Ajay J" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Ajay J</span>
@@ -788,7 +788,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Bharat Kandpal.jpg" alt="Bharat Kandpal" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Bharat Kandpal.jpg" alt="Bharat Kandpal" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Bharat Kandpal</span>
@@ -809,7 +809,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Mandar Maruti Jondhale.jpg" alt="Mandar Maruti Jondhale" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Mandar Maruti Jondhale.jpg" alt="Mandar Maruti Jondhale" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Mandar Maruti Jondhale</span>
@@ -830,7 +830,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Rakesh Krushna Joshi.jpg" alt="Rakesh Krushna Joshi" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Rakesh Krushna Joshi.jpg" alt="Rakesh Krushna Joshi" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rakesh Krushna Joshi</span>
@@ -851,7 +851,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Avi chourasiya.jpg" alt="Avi chourasiya" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Avi chourasiya.jpg" alt="Avi chourasiya" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Avi chourasiya</span>
@@ -872,7 +872,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Mihir Kalal.jpg" alt="Mihir Kalal" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Mihir Kalal.jpg" alt="Mihir Kalal" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Mihir Kalal</span>
@@ -893,7 +893,7 @@ order: 5
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/25/Ayush Vats.jpg" alt="Ayush Vats" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/statespace1977/assets/students/25/Ayush Vats.jpg" alt="Ayush Vats" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Ayush Vats</span>
