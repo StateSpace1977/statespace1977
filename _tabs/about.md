@@ -32,7 +32,7 @@ Got something helpful (or chaotic but useful)? Contribute here 👇
 
 - **Course Reviews**  
   Help others by reviewing courses — the good, the hard, and the *why-does-this-exist* ones.  
-  👉 [Submit Course Review](https://forms.gle/X6mTuu933XNLzofG6)
+  👉 [Submit Course Review](https://forms.gle/yHkm6WhS1uw2XkiA6)
 
 - **Anything Else**  
   Projects, learning resources, tips, or anything useful for SysCon students.  
