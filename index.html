@@ -1,0 +1,24 @@
+---
+layout: home
+# Index page
+---
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        registration.unregister().then(function() {
+          console.log('Service worker unregistered');
+        });
+      }
+    });
+  }
+  if ('caches' in window) {
+    caches.keys().then(function(names) {
+      for (let name of names) {
+        caches.delete(name);
+      }
+      console.log('Caches cleared');
+    });
+  }
+</script>

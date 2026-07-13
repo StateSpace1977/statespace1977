@@ -1,0 +1,116 @@
+import csv
+import os
+import re
+from datetime import datetime
+
+INPUT_CSV = "csv_dropbox/CourseReview.csv"
+OUTPUT_DIR = "_posts/courses"
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"\s+", "-", text.strip())
+    return text
+
+def parse_timestamp(timestamp):
+    try:
+        dt = datetime.strptime(timestamp.strip(), "%m/%d/%Y %H:%M:%S")
+        return dt
+    except:
+        return datetime.now()
+
+if not os.path.exists(INPUT_CSV):
+    print(f"No CSV found at {INPUT_CSV}, skipping.")
+    exit(0)
+
+with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
+    reader = csv.DictReader(csvfile)
+    reader.fieldnames = [h.strip() for h in reader.fieldnames]
+
+    for row in reader:
+        row = {k.strip(): v for k, v in row.items()}
+        student_name = row.get("Student's Name", "").strip()
+        course_code = row.get("Course Code", "").strip()
+        timestamp = row.get("Timestamp", "").strip()
+
+        if not student_name:
+            student_name = "Unknown"
+
+        dt = parse_timestamp(timestamp)
+        file_date = dt.strftime("%Y-%m-%d")
+        full_date = dt.strftime("%Y-%m-%d %H:%M:%S +0800")
+
+        title_slug = slugify(f"{course_code}-{student_name}")
+        filename = f"{file_date}-{title_slug}.md"
+        filepath = os.path.join(OUTPUT_DIR, filename)
+
+        name_to_key_map = {
+            "jatinkumar": "Jatinkumar",
+            "narendra muley": "Narendra Muley",
+            "nithin kumar": "Nithin Kumar",
+            "avik ghosh": "Avik Ghosh",
+            "bharat kandpal": "Bharat Kandpal",
+            "vaibhav upadhyay": "Vaibhav Upadhyay",
+            "carlyn medona": "Carlyn Medona",
+            "vinay bujja": "Vinay Bujja",
+            "rohit dilip patil": "Rohit Dilip Patil",
+            "rohit patil": "Rohit Patil",
+            "shailesh kishor mahindrakar": "Shailesh Kishor Mahindrakar",
+            "prashik patil": "Prashik Patil"
+        }
+        
+        clean_name = student_name.strip().lower()
+        clean_name = re.sub(r'\s+', ' ', clean_name)
+        author_key = name_to_key_map.get(clean_name, student_name)
+        
+        tag_fixes = {
+            "sc602": "SC602",
+            "sc 602": "SC602",
+            "ee622": "EE622",
+            "ee 622": "EE622",
+            "ee706": "EE706",
+            "ee 706": "EE706",
+            "sc625": "SC625",
+            "sc 625": "SC625",
+            "sc649": "SC649",
+            "sc 649": "SC649",
+            "sc639": "SC639",
+            "sc 639": "SC639",
+            "cs725": "CS725",
+            "cs 725": "CS725",
+            "cs747": "CS747",
+            "cs 747": "CS747",
+            "ee601": "EE601",
+            "ee 601": "EE601",
+            "ee603": "EE603",
+            "ee 603": "EE603",
+            "me779": "ME779",
+            "me 779": "ME779",
+            "sc624": "SC624",
+            "sc 624": "SC624",
+            "sc655": "SC655",
+            "sc 655": "SC655",
+            "sc664": "SC664",
+            "sc 664": "SC664"
+        }
+        
+        clean_course = course_code.strip().lower()
+        tag_name = tag_fixes.get(clean_course, course_code)
+
+        with open(filepath, "w", encoding="utf-8") as md:
+            md.write("---\n")
+            md.write(f"title: {tag_name}\n")
+            md.write(f"author: {author_key}\n")
+            md.write(f"date: {full_date}\n")
+            md.write("categories: [CourseReview]\n")
+            md.write(f"tags: [{tag_name}]\n")
+            md.write("render_with_liquid: false\n")
+            md.write("---\n\n")
+
+            for field, value in row.items():
+                md.write(f"## {field}\n")
+                md.write(f"{value}\n\n")
+
+print("Markdown files generated successfully.")
