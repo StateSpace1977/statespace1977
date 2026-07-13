@@ -6,806 +6,455 @@ order: 4
 
 ----
 
-
-<table>
-<tr>
-<td>
-
-<strong>Aditya Ashribad</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> L&T Precision Engineering & Systems
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Amit Kumar</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> Nanyang Technological University (NTU), Singapore
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Ashmita Roy</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> IUCAA
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Nallae Gowtham kumarswamy</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> Qualcomm
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Oza Harsh Mukundbhai</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> KPIT Technologies
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Siddhartha Ganguly</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> Kyoto University
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Souvik Das</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> Uppsala University
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Sudipta Chattopadhyay</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> SEDEMAC
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Vipul Notani</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2025.0<br>
-<strong>Current Organisation:</strong> Mathworks
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Arjun Sadananda</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> nsideFPV
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Ashutosh Jindal</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Post-Doc, University of Groningen
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Chetan Teli</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Fuji Electric India pvt. Ltd.
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Devyansh Shukla</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> National Stock Exchange
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Maitreyee Dutta</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Tokyo Institute of Technology
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Manauwar Alam</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Inspecity Space Labs
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Mohammed Mairajuddin Musharraf</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Micron
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Mukesh Kumar</strong><br>
-<strong>Degree:</strong> IDDDP<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Ph.D. at Georgia Institute of Technology
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>PALLAVI SINHA</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Halliburton
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Ramavath Sai Dinesh</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Airbus
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Sambeda Sarkar</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Ola Electric
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Shreyam Mishra</strong><br>
-<strong>Degree:</strong> IDDDP<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> PhD at the University of Pennsylvania
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Siddhartha Ganguly</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Postdoctoral researcher and Professor at the Kyoto University, Japan.
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Smit Kesaria</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> - -
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Souvik Das</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> NEC Japan
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Sudip Mondal</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2024.0<br>
-<strong>Current Organisation:</strong> Accenture
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Akash Deep Arya</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> PGET, Adani Green Energy Pvt Ltd
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Manuraj PM</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Engineer-II, RnD software dept, ideaforge
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Mirza Aman Baig</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Asst Managar, Systems Engineering, Suzlon Energy Ltd
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Muthyala Anjali</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Flight COntrols Development Engineer, Airbus India
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Rohan More</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Research Specialist, Connected Digital Systems Pvt Ltd
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Sayan Ray</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Software Engg, Bajaj RnD
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Shashank Deshpande</strong><br>
-<strong>Degree:</strong> IDDDP<br>
-<strong>Year of Graduation:</strong> 2023.0<br>
-<strong>Current Organisation:</strong> Grad Student, MIT
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Anuj Sanjay Vora</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2022.0<br>
-<strong>Current Organisation:</strong> Postdoc at TU Delft, Netherlands
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Dr. Kiran Kumari</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2021.0<br>
-<strong>Current Organisation:</strong> Indian Institute of Science
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>MALLULA YASODA VENKATA KRISHNA TEJA</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2021.0<br>
-<strong>Current Organisation:</strong> IFM ENGINEERING PVT LTD
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>YASODA VENKATA KRISHNA TEJA MALLULA</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2021.0<br>
-<strong>Current Organisation:</strong> Qualcomm
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Saurabh Dhamne</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2020.0<br>
-<strong>Current Organisation:</strong> Dover corporation
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Harivardhan Geddada</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2019.0<br>
-<strong>Current Organisation:</strong> ABB India
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Kshitij Kadam</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2019.0<br>
-<strong>Current Organisation:</strong> Datamatics
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Anurag Kashyap</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2018.0<br>
-<strong>Current Organisation:</strong> PHILIPS HEALTHCARE
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Kawde rohit rajendra</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2018.0<br>
-<strong>Current Organisation:</strong> Ebara Corporation
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Kishan Kumar</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2018.0<br>
-<strong>Current Organisation:</strong> Mercedes-Benz Research and Development India Pvt Ltd
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Rakesh R Warier</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2017.0<br>
-<strong>Current Organisation:</strong> National Institute of Calicut
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Sarat Chandra Nagavarapu</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2016.0<br>
-<strong>Current Organisation:</strong> Agency for Science, Technology and Research (A*STAR), Singapore
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Ajay Singh</strong><br>
-<strong>Degree:</strong> MTech<br>
-<strong>Year of Graduation:</strong> 2014.0<br>
-<strong>Current Organisation:</strong> Smartmicrowave sensors GmbH
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>SOUMYA RANJAN SAHOO</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2014.0<br>
-<strong>Current Organisation:</strong> INDIAN INSTITUTE OF TECHNOLOGY KANPUR
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Dhananjay Balu Talange</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 2005.0<br>
-<strong>Current Organisation:</strong> DNA Precision Works
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>S Jayakumar</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> 1999.0<br>
-<strong>Current Organisation:</strong> Independent consultant
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Prashant Patil</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> nan<br>
-<strong>Current Organisation:</strong> Research Engineer, General Electric
-
-</td>
-</tr>
-</table>
-
-
-
-
-<table>
-<tr>
-<td>
-
-<strong>Shubhangi Nema</strong><br>
-<strong>Degree:</strong> PhD<br>
-<strong>Year of Graduation:</strong> nan<br>
-<strong>Current Organisation:</strong> Research and Innovation Park, IIT Delhi (Principal Scientist)
-
-</td>
-</tr>
-</table>
-
-
-
-
-
----
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Aditya Ashribad</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> L&T Precision Engineering & Systems
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Amit Kumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Nanyang Technological University (NTU), Singapore
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ashmita Roy</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> IUCAA
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Nallae Gowtham kumarswamy</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Qualcomm
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Oza Harsh Mukundbhai</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> KPIT Technologies
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Siddhartha Ganguly</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Kyoto University
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Souvik Das</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Uppsala University
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sudipta Chattopadhyay</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> SEDEMAC
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Vipul Notani</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2025 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Mathworks
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Arjun Sadananda</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> nsideFPV
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ashutosh Jindal</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Post-Doc, University of Groningen
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Chetan Teli</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Fuji Electric India pvt. Ltd.
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Devyansh Shukla</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> National Stock Exchange
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Maitreyee Dutta</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Tokyo Institute of Technology
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Manauwar Alam</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Inspecity Space Labs
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Mohammed Mairajuddin Musharraf</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Micron
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Mukesh Kumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> IDDDP <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Ph.D. at Georgia Institute of Technology
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">PALLAVI SINHA</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Halliburton
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ramavath Sai Dinesh</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Airbus
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sambeda Sarkar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Ola Electric
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Shreyam Mishra</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> IDDDP <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> PhD at the University of Pennsylvania
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Siddhartha Ganguly</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Postdoctoral researcher and Professor at the Kyoto University, Japan.
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Smit Kesaria</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> - -
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Souvik Das</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> NEC Japan
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sudip Mondal</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2024 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Accenture
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Akash Deep Arya</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> PGET, Adani Green Energy Pvt Ltd
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Manuraj PM</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Engineer-II, RnD software dept, ideaforge
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Mirza Aman Baig</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Asst Managar, Systems Engineering, Suzlon Energy Ltd
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Muthyala Anjali</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Flight COntrols Development Engineer, Airbus India
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rohan More</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Research Specialist, Connected Digital Systems Pvt Ltd
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sayan Ray</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Software Engg, Bajaj RnD
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Shashank Deshpande</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> IDDDP <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2023 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Grad Student, MIT
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anuj Sanjay Vora</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2022 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Postdoc at TU Delft, Netherlands
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dr. Kiran Kumari</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2021 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Indian Institute of Science
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">MALLULA YASODA VENKATA KRISHNA TEJA</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2021 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> IFM ENGINEERING PVT LTD
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">YASODA VENKATA KRISHNA TEJA MALLULA</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2021 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Qualcomm
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Saurabh Dhamne</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2020 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Dover corporation
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Harivardhan Geddada</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2019 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> ABB India
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Kshitij Kadam</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2019 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Datamatics
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anurag Kashyap</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2018 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> PHILIPS HEALTHCARE
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Kawde rohit rajendra</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2018 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Ebara Corporation
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Kishan Kumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2018 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Mercedes-Benz Research and Development India Pvt Ltd
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rakesh R Warier</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2017 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> National Institute of Calicut
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sarat Chandra Nagavarapu</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2016 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Agency for Science, Technology and Research (A*STAR), Singapore
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ajay Singh</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2014 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Smartmicrowave sensors GmbH
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">SOUMYA RANJAN SAHOO</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2014 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> INDIAN INSTITUTE OF TECHNOLOGY KANPUR
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dhananjay Balu Talange</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2005 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> DNA Precision Works
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">S Jayakumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 1999 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Independent consultant
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prashant Patil</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Research Engineer, General Electric
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Shubhangi Nema</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> PhD <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Research and Innovation Park, IIT Delhi (Principal Scientist)
+    </div>
+</div>
+</div>

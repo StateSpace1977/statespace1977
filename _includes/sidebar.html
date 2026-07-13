@@ -40,6 +40,38 @@
     </ul>
   </nav>
 
+  {% assign show_course_btn = false %}
+  {% assign show_placement_btn = false %}
+  
+  {% if page.layout == 'category' %}
+    {% if page.title == 'CourseReview' %}
+      {% assign show_course_btn = true %}
+    {% elsif page.title == 'PlacementReview' %}
+      {% assign show_placement_btn = true %}
+    {% endif %}
+  {% elsif page.layout == 'post' %}
+    {% if page.categories contains 'CourseReview' %}
+      {% assign show_course_btn = true %}
+    {% elsif page.categories contains 'PlacementReview' %}
+      {% assign show_placement_btn = true %}
+    {% endif %}
+  {% endif %}
+
+  {% if show_course_btn or show_placement_btn %}
+  <div class="sidebar-review-btn-container w-100 px-4 mt-3 mb-3" style="display:flex; flex-direction:column; gap:10px;">
+    {% if show_course_btn %}
+    <a href="https://forms.gle/X6mTuu933XNLzofG6" target="_blank" class="btn w-100" style="background-color: var(--link-color, #0284c7); border:none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 12px rgba(2,132,199,0.3); color: white; transition: transform 0.2s ease;">
+      <i class="fas fa-pen-nib me-2"></i> Write Review
+    </a>
+    {% endif %}
+    {% if show_placement_btn %}
+    <a href="https://forms.gle/iTQg7FdokxbmvLWz5" target="_blank" class="btn w-100" style="background-color: var(--link-color, #0284c7); border:none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 12px rgba(2,132,199,0.3); color: white; transition: transform 0.2s ease;">
+       <i class="fas fa-briefcase me-2"></i> Placement Blog
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
     {%- capture icon_system -%}
