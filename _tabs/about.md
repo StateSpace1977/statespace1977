@@ -26,9 +26,9 @@ Join the StateSpace community so you can receive updates, contribute resources, 
 
 Got something helpful (or chaotic but useful)? Contribute here 👇
 
-- **Placement Blogs**  
-  Share your interview stories, prep tips, and your *“how I survived placements”* guide.  
-  👉 [Submit Placement Blog](https://forms.gle/iTQg7FdokxbmvLWz5)
+- **Placement Reviews**  
+  Insights and experiences from seniors to help you crack those interviews.  
+  👉 [Submit Placement Review](https://forms.gle/66wxi8tuPgQZ1uz1A)
 
 - **Course Reviews**  
   Help others by reviewing courses — the good, the hard, and the *why-does-this-exist* ones.  
