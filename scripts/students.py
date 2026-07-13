@@ -3,7 +3,7 @@ import os
 
 csv_file = "csv_dropbox/students.csv"
 output_file = "_tabs/Current Students.md"
-base_path = "/statespace1977/assets/students"
+base_path = "/assets/students"
 
 if not os.path.exists(csv_file):
     print(f"No CSV found at {csv_file}, skipping.")
