@@ -87,6 +87,7 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
             md.write("categories: [PlacementReview]\n")
             md.write(f"tags: [{tag_name}]\n")
             md.write("render_with_liquid: false\n")
+            md.write("auto_generated: true\n")
             md.write("---\n\n")
 
             for field, value in row.items():
@@ -97,6 +98,11 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
     if os.path.exists(OUTPUT_DIR):
         for existing_file in os.listdir(OUTPUT_DIR):
             if existing_file.endswith(".md") and existing_file not in generated_files:
-                os.remove(os.path.join(OUTPUT_DIR, existing_file))
+                file_path_to_check = os.path.join(OUTPUT_DIR, existing_file)
+                with open(file_path_to_check, "r", encoding="utf-8") as f:
+                    content = f.read()
+                # ONLY delete if it has the auto_generated flag
+                if "auto_generated: true" in content:
+                    os.remove(file_path_to_check)
 
 print("Placement markdown files generated successfully and stale files cleaned up.")
