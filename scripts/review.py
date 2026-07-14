@@ -33,8 +33,8 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
 
     for row in reader:
         row = {k.strip(): v for k, v in row.items()}
-        student_name = row.get("Student's Name", "").strip()
-        course_code = row.get("Course Code", "").strip()
+        student_name = row.get("Name", "").strip()
+        course_code = row.get("course code", "").strip()
         timestamp = row.get("Timestamp", "").strip()
 
         if not student_name:

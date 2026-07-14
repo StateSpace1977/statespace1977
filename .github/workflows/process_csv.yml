@@ -39,7 +39,7 @@ jobs:
           git add _posts/ _tabs/
           # Commit only if there are changes
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-generated pages from CSV update [skip ci]"
+            git commit -m "Auto-generated pages from CSV update"
             git push
           else
             echo "No changes to commit."
