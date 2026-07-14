@@ -28,6 +28,8 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     reader.fieldnames = [h.strip() for h in reader.fieldnames]
 
+    generated_files = set()
+
     for row in reader:
         row = {k.strip(): (v.strip() if v else "") for k, v in row.items()}
         student_name = row.get("Student's Name", "Unknown")
@@ -41,6 +43,7 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
         slug = slugify(f"{company}-{student_name}")
         filename = f"{file_date}-{slug}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
+        generated_files.add(filename)
 
         name_to_key_map = {
             "jatinkumar": "Jatinkumar",
@@ -90,4 +93,10 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
                 md.write(f"## {field}\n")
                 md.write(f"{value}\n\n")
 
-print("Placement markdown files generated successfully.")
+    # Clean up any stale markdown files in the directory
+    if os.path.exists(OUTPUT_DIR):
+        for existing_file in os.listdir(OUTPUT_DIR):
+            if existing_file.endswith(".md") and existing_file not in generated_files:
+                os.remove(os.path.join(OUTPUT_DIR, existing_file))
+
+print("Placement markdown files generated successfully and stale files cleaned up.")
