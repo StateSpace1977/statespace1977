@@ -58,7 +58,7 @@
   {% endif %}
 
   {% if show_course_btn or show_placement_btn %}
-  <div class="sidebar-review-btn-container w-100 px-4 mt-3 mb-3" style="display:flex; flex-direction:column; gap:10px;">
+  <div class="desktop-review-btn sidebar-review-btn-container w-100 px-4 mt-3 mb-3" style="display:flex; flex-direction:column; gap:10px;">
     {% if show_course_btn %}
     <a href="https://forms.gle/yHkm6WhS1uw2XkiA6" target="_blank" class="btn w-100" style="background-color: var(--link-color, #0284c7); border:none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 12px rgba(2,132,199,0.3); color: white; transition: transform 0.2s ease;">
       <i class="fas fa-pen-nib me-2"></i> Write Review
@@ -158,3 +158,63 @@
   <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
+
+{% if show_course_btn or show_placement_btn %}
+<div class="mobile-fab-container">
+  {% if show_course_btn %}
+  <a href="https://forms.gle/yHkm6WhS1uw2XkiA6" target="_blank" class="fab-btn" aria-label="Write Review">
+    <i class="fas fa-pen-nib"></i>
+  </a>
+  {% endif %}
+  {% if show_placement_btn %}
+  <a href="https://forms.gle/66wxi8tuPgQZ1uz1A" target="_blank" class="fab-btn" aria-label="Placement Blog">
+    <i class="fas fa-briefcase"></i>
+  </a>
+  {% endif %}
+</div>
+
+<style>
+  /* Base styles for FAB */
+  .mobile-fab-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .fab-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--link-color, #0284c7);
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+  }
+  .fab-btn:active {
+    transform: scale(0.92);
+  }
+
+  /* Responsive behavior */
+  @media (max-width: 849px) {
+    .desktop-review-btn {
+      display: none !important;
+    }
+    .mobile-fab-container {
+      display: flex !important;
+    }
+  }
+  @media (min-width: 850px) {
+    .mobile-fab-container {
+      display: none !important;
+    }
+  }
+</style>
+{% endif %}
