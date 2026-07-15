@@ -1,9 +1,2 @@
 "Timestamp","IITB Email address","Name","Roll no.","Job profile","Review","year","Semester","Prerequisites","Grading Criteria","Grading Criteria(what was marks distribution for exams/assignments/etc..)","Course Content","Feedback on Lectures*","Feedback on Assignments/Tutorials/Homework","Feedback on Exams","Difficulty (on a scale of 1-5 with 5 being very tough) 
 ","Textbooks/References","Software Used (If any)","Final Takeaway","course code","Instructor"
-"Wed Jul 15 2026 12:40:09 GMT+0530 (India Standard Time)","mdsaifali@iitb.ac.in","Md Saif Ali ","25M2007","","","1st","Autumn(Aug-Dec)","No hard perquisites but instructor suggest to do ""Indexing and Retrieving Text and graphs CS 6101"", CS 725 and deep learning course","Relative ","3*30 class quiz: min(60, quiz1+quiz2+quiz3)
-Weekly class quiz on SAFE app: 10
-3 assignment: 20 marks
-End semester: 10 marks
-
-Extra credit: Project and paper critics 
-","Deep learning for sequences, graphs, and language model. Machine learning for natural language and knowledge graph. Advances in natural language and knowledge representation. Also LLM, RAG, RLHF, transformer, Knowledge graph, ViT, etc","Lecturers are difficult to understand.","Assignment are very tough and required sufficient brainstorming ","Exams are very tough","5","","","It's an excellent course. Not advisable to fresher in 1st semester ","CS 728","Soumen Chakrabarti "
