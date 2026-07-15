@@ -102,6 +102,64 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
         clean_course = course_code.strip().lower()
         tag_name = tag_fixes.get(clean_course, course_code)
 
+        # Define course names mapping
+        course_names = {
+            "CS747": "Foundations of intelligent and learning agents",
+            "CS 747": "Foundations of intelligent and learning agents",
+            "EE622": "Optimal control",
+            "EE 622": "Optimal control",
+            "SC602": "Control of Nonlinear Dynamical Systems",
+            "SC 602": "Control of Nonlinear Dynamical Systems",
+            "SC649": "Embedded Control and Robotics",
+            "SC 649": "Embedded Control and Robotics",
+            "SC655": "Random Processes in Learning and Control",
+            "SC 655": "Random Processes in Learning and Control",
+            "SC664": "Active vibration and control",
+            "SC 664": "Active vibration and control",
+            "EE601": "Statistical signal Analysis",
+            "EE 601": "Statistical signal Analysis",
+            "EE603": "Digital Signal Processing",
+            "EE 603": "Digital Signal Processing",
+            "ME779": "Control Systems",
+            "ME 779": "Control Systems",
+            "SC625": "Systems Theory",
+            "SC 625": "Systems Theory",
+            "SC639": "Mathematical Structure for Control",
+            "SC 639": "Mathematical Structure for Control",
+            "SC624": "Differential Geometric Methods in Control",
+            "SC 624": "Differential Geometric Methods in Control",
+            "CS725": "Foundation of machine learning",
+            "CS 725": "Foundation of machine learning",
+            "CS728": "Organization of Web Information",
+            "CS 728": "Organization of Web Information",
+            "EE706": "Communication Networks",
+            "EE 706": "Communication Networks",
+        }
+        
+        # Look up course name
+        clean_course_lookup = course_code.strip()
+        course_name_val = course_names.get(clean_course_lookup, "")
+        if not course_name_val:
+            # Check case-insensitive
+            for code, name in course_names.items():
+                if code.lower().replace(" ", "") == clean_course_lookup.lower().replace(" ", ""):
+                    course_name_val = name
+                    break
+
+        # Also update authors.yml
+        authors_file = "_data/authors.yml"
+        if os.path.exists(authors_file):
+            try:
+                import yaml
+                with open(authors_file, "r", encoding="utf-8") as yf:
+                    authors_data = yaml.safe_load(yf) or {}
+                if author_key not in authors_data:
+                    authors_data[author_key] = {"name": author_key}
+                    with open(authors_file, "w", encoding="utf-8") as yf:
+                        yaml.safe_dump(authors_data, yf, allow_unicode=True, default_flow_style=False)
+            except Exception as e:
+                print(f"Error updating authors.yml: {e}")
+
         with open(filepath, "w", encoding="utf-8") as md:
             md.write("---\n")
             md.write(f"title: {tag_name}\n")
@@ -113,7 +171,30 @@ with open(INPUT_CSV, newline='', encoding='utf-8') as csvfile:
             md.write("auto_generated: true\n")
             md.write("---\n\n")
 
+            # Clean and write Timestamp
+            clean_ts = timestamp
+            if " GMT" in clean_ts:
+                clean_ts = clean_ts.split(" GMT")[0].strip()
+            md.write("## Timestamp\n")
+            md.write(f"{clean_ts}\n\n")
+            
+            # Print Posted by
+            md.write(f"Posted by {student_name}\n\n")
+
+            # Print Course Name
+            if course_name_val:
+                md.write("## Course Name\n")
+                md.write(f"{course_name_val}\n\n")
+
+            # Write other fields
             for field, value in row.items():
+                # Skip fields we already handled or want to omit
+                field_lower = field.lower().strip()
+                if field_lower in ["timestamp", "course code", "job profile", "review"]:
+                    continue
+                # Also skip empty values to keep it clean
+                if not value.strip():
+                    continue
                 md.write(f"## {field}\n")
                 md.write(f"{value}\n\n")
 
