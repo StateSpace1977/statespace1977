@@ -43,7 +43,13 @@ function selectAlumniTab(targetId) {
       <option value="batch-2021">Batch 2021 (3)</option>
       <option value="batch-2020">Batch 2020 (1)</option>
       <option value="batch-2019">Batch 2019 (2)</option>
-      <option value="older-batches">Older Batches (11)</option>
+      <option value="batch-2018">Batch 2018 (3)</option>
+      <option value="batch-2017">Batch 2017 (1)</option>
+      <option value="batch-2016">Batch 2016 (1)</option>
+      <option value="batch-2014">Batch 2014 (2)</option>
+      <option value="batch-2005">Batch 2005 (1)</option>
+      <option value="batch-1999">Batch 1999 (1)</option>
+      <option value="batch-n/a">Other Alumni (2)</option>
       <option value="all">All Alumni (61)</option>
     </select>
 
@@ -172,6 +178,9 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2025</span>
     </div>
 </div>
+  </div>
+
+  <div id="batch-2024" class="tab-pane">
   </div>
 
   <div id="batch-2024" class="tab-pane">
@@ -649,6 +658,9 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2023" class="tab-pane">
+  </div>
+
+  <div id="batch-2023" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Akash Deep Arya</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -742,6 +754,9 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2022" class="tab-pane">
+  </div>
+
+  <div id="batch-2022" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anuj Sanjay Vora</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -754,6 +769,9 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2022</span>
     </div>
 </div>
+  </div>
+
+  <div id="batch-2021" class="tab-pane">
   </div>
 
   <div id="batch-2021" class="tab-pane">
@@ -798,6 +816,9 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2020" class="tab-pane">
+  </div>
+
+  <div id="batch-2020" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Saurabh Dhamne</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -810,6 +831,9 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2020</span>
     </div>
 </div>
+  </div>
+
+  <div id="batch-2019" class="tab-pane">
   </div>
 
   <div id="batch-2019" class="tab-pane">
@@ -842,6 +866,9 @@ function selectAlumniTab(targetId) {
 
   <div id="older-batches" class="tab-pane">
 <h3>Batch 2018</h3>
+  </div>
+
+  <div id="batch-2018" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anurag Kashyap</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -882,6 +909,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Batch 2017</h3>
+  </div>
+
+  <div id="batch-2017" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rakesh R Warier</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -896,6 +926,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Batch 2016</h3>
+  </div>
+
+  <div id="batch-2016" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sarat Chandra Nagavarapu</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -910,6 +943,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Batch 2014</h3>
+  </div>
+
+  <div id="batch-2014" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ajay Singh</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -937,6 +973,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Batch 2005</h3>
+  </div>
+
+  <div id="batch-2005" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dhananjay Balu Talange</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -951,6 +990,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Batch 1999</h3>
+  </div>
+
+  <div id="batch-1999" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">S Jayakumar</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -965,6 +1007,9 @@ function selectAlumniTab(targetId) {
 </div>
 
 <h3>Other Alumni</h3>
+  </div>
+
+  <div id="batch-n/a" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prashant Patil</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -990,6 +1035,8 @@ function selectAlumniTab(targetId) {
     <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center;">
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch N/A</span>
     </div>
+</div>
+  </div>
 </div>
   </div>
 </div>
