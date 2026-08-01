@@ -21,37 +21,28 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Carlyn Medona</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24M2018</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">SC639</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Ravi Banavar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2024-25</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Autumn Semester (Aug - Dec)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
 </div>
 </div>
 
-<div class="review-field-block">
-  <span class="review-label">🔗 Prerequisites</span>
-  <div class="review-block-value">## Grading Criteria (what was marks distribution for exams/assignments/etc..)<br>Assignment-35%, Quizzes-45%, Project-20%</div>
-</div>
+
 <div class="review-field-block">
   <span class="review-label">📊 Grading Criteria</span>
   <div class="review-block-value">Assignment-35%, Quizzes-45%, Project-20%</div>
@@ -72,14 +63,8 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">Easy</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)<br>none</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">💻 Software Used</span>
-  <div class="review-block-value">none</div>
-</div>
+
+
 
 
 </div>

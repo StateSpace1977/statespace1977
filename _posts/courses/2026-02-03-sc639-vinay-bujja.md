@@ -21,28 +21,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Vinay Bujja</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">15M2009</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">SC639</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Debasish Chatterjee</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2025</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Autumn Semester (Aug - Dec)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
 </div>

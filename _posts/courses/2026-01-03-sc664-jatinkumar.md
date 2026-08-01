@@ -23,28 +23,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Jatinkumar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m2021</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">Sc664</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof Vivek Natrajan</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2025</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Autumn Semester (Aug - Dec)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
 </div>
@@ -74,10 +68,7 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">quiz and paper discussion</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)<br>Matlab</div>
-</div>
+
 <div class="review-field-block">
   <span class="review-label">💻 Software Used</span>
   <div class="review-block-value">Matlab</div>

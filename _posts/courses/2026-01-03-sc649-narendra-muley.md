@@ -21,28 +21,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Narendra Muley</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m2020</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">SC649</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof Leena Vachhani</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2024</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Spring Semester (Jan - May)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
 </div>
@@ -64,18 +58,9 @@ render_with_liquid: false
   <span class="review-label">🎙️ Feedback on Lectures</span>
   <div class="review-block-value">Lectures are mostly interactive, but prior study is required for better understanding, gives a taste of bit of signal processing, dynamics of robotics and application of control</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📝 Feedback on Assignments</span>
-  <div class="review-block-value">## Feedback on Exams</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">📋 Feedback on Exams</span>
-  <div class="review-block-value">## Difficulty (on a scale of 1-5 with 5 being very tough)<br>3</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)<br>ROS was used for the project implementation on robots/drones</div>
-</div>
+
+
+
 <div class="review-field-block">
   <span class="review-label">💻 Software Used</span>
   <div class="review-block-value">ROS was used for the project implementation on robots/drones</div>

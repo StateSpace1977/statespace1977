@@ -23,28 +23,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Jatinkumar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m2021</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">Sc602</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof srikant sukumar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2025</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Spring Semester (Jan - May)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
 </div>
@@ -74,14 +68,8 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">Mostly based on nonlinear control design by various methods learnt in the course</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">💻 Software Used</span>
-  <div class="review-block-value">## Final Takeaway<br>This course is essential for any control engineer. The concepts especially passivity and backstepping are used heavily for many control applications. The main highlight about the course is it does not involve too much in depth complex analysis instead  focusing on grasping  of concepts and its application.  This course also prerequisite for Adaptive control.</div>
-</div>
+
+
 <div class="review-field-block">
   <span class="review-label">🏁 Final Takeaway</span>
   <div class="review-block-value">This course is essential for any control engineer. The concepts especially passivity and backstepping are used heavily for many control applications. The main highlight about the course is it does not involve too much in depth complex analysis instead  focusing on grasping  of concepts and its application.  This course also prerequisite for Adaptive control.</div>

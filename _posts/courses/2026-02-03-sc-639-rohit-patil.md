@@ -23,28 +23,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Rohit Patil</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m0135</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">SC 639</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof. Ravi Banawar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2024</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Autumn Semester (Aug - Dec)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
 </div>
@@ -74,14 +68,8 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">Good difficulty, based on assignments and classroom lecture content</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">💻 Software Used</span>
-  <div class="review-block-value">## Final Takeaway<br>If you like mathematics and mechanics, this course is the sweet spot between the two. It is quite rigorous just like any math course.</div>
-</div>
+
+
 <div class="review-field-block">
   <span class="review-label">🏁 Final Takeaway</span>
   <div class="review-block-value">If you like mathematics and mechanics, this course is the sweet spot between the two. It is quite rigorous just like any math course.</div>

@@ -23,28 +23,22 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Rohit Dilip Patil</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m0135</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">SC 625</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof. Vivek Natarajan</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2024</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Autumn Semester (Aug - Dec)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
 </div>
@@ -74,10 +68,7 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">Theoretical exams based on mathematical questions and proofs.</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)<br>MATLAB</div>
-</div>
+
 <div class="review-field-block">
   <span class="review-label">💻 Software Used</span>
   <div class="review-block-value">MATLAB</div>

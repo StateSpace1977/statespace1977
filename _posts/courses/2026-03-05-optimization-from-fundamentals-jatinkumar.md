@@ -21,37 +21,28 @@ render_with_liquid: false
 <div class="review-field">
   <span class="review-label">👤 Reviewed by</span>
   <span class="review-value">Jatinkumar</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🆔 Roll No.</span>
   <span class="review-value">24m2021</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📘 Course Code</span>
   <span class="review-value">Optimization from fundamentals</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">👩‍🏫 Instructor</span>
   <span class="review-value">Prof Ankur kulkarni</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">📅 Year</span>
   <span class="review-value">2025</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">🗓️ Semester</span>
   <span class="review-value">Spring Semester (Jan - May)</span>
-</div>
-<div class="review-field">
+</div><div class="review-field">
   <span class="review-label">⚡ Difficulty</span>
   <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
 </div>
 </div>
 
-<div class="review-field-block">
-  <span class="review-label">🔗 Prerequisites</span>
-  <div class="review-block-value">## Grading Criteria (what was marks distribution for exams/assignments/etc..)<br>Relative</div>
-</div>
+
 <div class="review-field-block">
   <span class="review-label">📊 Grading Criteria</span>
   <div class="review-block-value">Relative</div>
@@ -72,14 +63,8 @@ render_with_liquid: false
   <span class="review-label">📋 Feedback on Exams</span>
   <div class="review-block-value">Only endsem was planned.</div>
 </div>
-<div class="review-field-block">
-  <span class="review-label">📖 Textbooks / References</span>
-  <div class="review-block-value">## Software Used (If any)</div>
-</div>
-<div class="review-field-block">
-  <span class="review-label">💻 Software Used</span>
-  <div class="review-block-value">## Final Takeaway<br>This course is foundational course across many branches and must be learnt in first year only. The concepts learnt in this course shall be used extensively in other course as well as for final year project. Students can also opt optimum control from electrical department alongwith this course to have full fledged optimization understanding along with control aspects of it.</div>
-</div>
+
+
 <div class="review-field-block">
   <span class="review-label">🏁 Final Takeaway</span>
   <div class="review-block-value">This course is foundational course across many branches and must be learnt in first year only. The concepts learnt in this course shall be used extensively in other course as well as for final year project. Students can also opt optimum control from electrical department alongwith this course to have full fledged optimization understanding along with control aspects of it.</div>
