@@ -21,10 +21,10 @@ function switchTab(btn, targetId) {
 
 <div class="tabs-wrapper">
   <div class="tab-nav-container">
-    <button class="tab-btn active" onclick="switchTab(this, 'mtech-2025')">🎓 M.Tech 2025 Intake <span class="badge">25</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'mtech-2024')">🎓 M.Tech 2024 Intake <span class="badge">4</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'idddp')">🎓 IDDDP <span class="badge">3</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'all')">View All <span class="badge">32</span></button>
+    <button class="tab-btn active" onclick="switchTab(this, 'mtech-2025')">2025 Intake <span class="badge">25</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'mtech-2024')">2024 Intake <span class="badge">4</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'idddp')">IDDDP <span class="badge">3</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'all')">All <span class="badge">32</span></button>
   </div>
 
   <div id="mtech-2025" class="tab-pane active">

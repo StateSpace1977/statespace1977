@@ -21,15 +21,15 @@ function switchTab(btn, targetId) {
 
 <div class="tabs-wrapper">
   <div class="tab-nav-container">
-    <button class="tab-btn active" onclick="switchTab(this, 'batch-2025')">🎓 Batch 2025 <span class="badge">9</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2024')">🎓 Batch 2024 <span class="badge">27</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2023')">🎓 Batch 2023 <span class="badge">7</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2022')">🎓 Batch 2022 <span class="badge">1</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2021')">🎓 Batch 2021 <span class="badge">3</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2020')">🎓 Batch 2020 <span class="badge">1</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2019')">🎓 Batch 2019 <span class="badge">2</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'older-batches')">🎓 Older Batches <span class="badge">11</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'all')">View All <span class="badge">61</span></button>
+    <button class="tab-btn active" onclick="switchTab(this, 'batch-2025')">2025 <span class="badge">9</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2024')">2024 <span class="badge">27</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2023')">2023 <span class="badge">7</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2022')">2022 <span class="badge">1</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2021')">2021 <span class="badge">3</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2020')">2020 <span class="badge">1</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2019')">2019 <span class="badge">2</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'older-batches')">Older <span class="badge">11</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'all')">All <span class="badge">61</span></button>
   </div>
 
   <div id="batch-2025" class="tab-pane active">
@@ -818,7 +818,7 @@ function switchTab(btn, targetId) {
   </div>
 
   <div id="older-batches" class="tab-pane">
-<h3>🎓 Batch 2018</h3>
+<h3>Batch 2018</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anurag Kashyap</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -858,7 +858,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Batch 2017</h3>
+<h3>Batch 2017</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rakesh R Warier</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -872,7 +872,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Batch 2016</h3>
+<h3>Batch 2016</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sarat Chandra Nagavarapu</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -886,7 +886,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Batch 2014</h3>
+<h3>Batch 2014</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ajay Singh</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -913,7 +913,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Batch 2005</h3>
+<h3>Batch 2005</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dhananjay Balu Talange</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -927,7 +927,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Batch 1999</h3>
+<h3>Batch 1999</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">S Jayakumar</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -941,7 +941,7 @@ function switchTab(btn, targetId) {
     </div>
 </div>
 
-<h3>🎓 Other Alumni</h3>
+<h3>Other Alumni</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prashant Patil</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
