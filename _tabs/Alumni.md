@@ -9,6 +9,105 @@ order: 4
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anuj Yadav</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anupam</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Chanakya vihar Challa</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Chandra Vikas</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Jatinkumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Kadapalla Nithin Kumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Gruve
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Paras Pandey</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prabhat Patel</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prashik Patil</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Visa
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rohit kumar</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Kas Global
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Vinayak Bhardwaj</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Eaton
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Aditya Ashribad</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
