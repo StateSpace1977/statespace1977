@@ -5,11 +5,24 @@ order: 4
 ---
 
 <script>
-function switchTab(btn, targetId) {
-  const container = btn.closest(".tabs-wrapper");
-  container.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+function selectAlumniTab(targetId) {
+  const container = document.querySelector(".tabs-wrapper");
+  if (!container) return;
   container.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
-  btn.classList.add("active");
+  
+  const dropdown = container.querySelector(".year-select-dropdown");
+  if (dropdown && dropdown.value !== targetId) {
+    dropdown.value = targetId;
+  }
+  
+  container.querySelectorAll(".quick-pill").forEach(pill => {
+    if (pill.getAttribute("data-target") === targetId) {
+      pill.classList.add("active");
+    } else {
+      pill.classList.remove("active");
+    }
+  });
+
   if (targetId === "all") {
     container.querySelectorAll(".tab-pane").forEach(p => p.classList.add("active"));
   } else {
@@ -20,16 +33,26 @@ function switchTab(btn, targetId) {
 </script>
 
 <div class="tabs-wrapper">
-  <div class="tab-nav-container">
-    <button class="tab-btn active" onclick="switchTab(this, 'batch-2025')">2025 <span class="badge">9</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2024')">2024 <span class="badge">27</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2023')">2023 <span class="badge">7</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2022')">2022 <span class="badge">1</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2021')">2021 <span class="badge">3</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2020')">2020 <span class="badge">1</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'batch-2019')">2019 <span class="badge">2</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'older-batches')">Older <span class="badge">11</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'all')">All <span class="badge">61</span></button>
+  <div class="year-filter-bar">
+    <label class="year-filter-label" for="alumni-year-select">Select Year / Batch:</label>
+    <select id="alumni-year-select" class="year-select-dropdown" onchange="selectAlumniTab(this.value)">
+      <option value="batch-2025">Batch 2025 (9)</option>
+      <option value="batch-2024">Batch 2024 (27)</option>
+      <option value="batch-2023">Batch 2023 (7)</option>
+      <option value="batch-2022">Batch 2022 (1)</option>
+      <option value="batch-2021">Batch 2021 (3)</option>
+      <option value="batch-2020">Batch 2020 (1)</option>
+      <option value="batch-2019">Batch 2019 (2)</option>
+      <option value="older-batches">Older Batches (11)</option>
+      <option value="all">All Alumni (61)</option>
+    </select>
+
+    <div class="quick-year-pills">
+      <button class="quick-pill active" data-target="batch-2025" onclick="selectAlumniTab('batch-2025')">2025</button>
+      <button class="quick-pill" data-target="batch-2024" onclick="selectAlumniTab('batch-2024')">2024</button>
+      <button class="quick-pill" data-target="batch-2023" onclick="selectAlumniTab('batch-2023')">2023</button>
+      <button class="quick-pill" data-target="all" onclick="selectAlumniTab('all')">All</button>
+    </div>
   </div>
 
   <div id="batch-2025" class="tab-pane active">

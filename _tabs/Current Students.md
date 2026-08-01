@@ -5,11 +5,24 @@ order: 5
 ---
 
 <script>
-function switchTab(btn, targetId) {
-  const container = btn.closest(".tabs-wrapper");
-  container.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+function selectStudentTab(targetId) {
+  const container = document.querySelector(".tabs-wrapper");
+  if (!container) return;
   container.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
-  btn.classList.add("active");
+  
+  const dropdown = container.querySelector(".year-select-dropdown");
+  if (dropdown && dropdown.value !== targetId) {
+    dropdown.value = targetId;
+  }
+  
+  container.querySelectorAll(".quick-pill").forEach(pill => {
+    if (pill.getAttribute("data-target") === targetId) {
+      pill.classList.add("active");
+    } else {
+      pill.classList.remove("active");
+    }
+  });
+
   if (targetId === "all") {
     container.querySelectorAll(".tab-pane").forEach(p => p.classList.add("active"));
   } else {
@@ -20,11 +33,21 @@ function switchTab(btn, targetId) {
 </script>
 
 <div class="tabs-wrapper">
-  <div class="tab-nav-container">
-    <button class="tab-btn active" onclick="switchTab(this, 'mtech-2025')">2025 Intake <span class="badge">25</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'mtech-2024')">2024 Intake <span class="badge">4</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'idddp')">IDDDP <span class="badge">3</span></button>
-    <button class="tab-btn" onclick="switchTab(this, 'all')">All <span class="badge">32</span></button>
+  <div class="year-filter-bar">
+    <label class="year-filter-label" for="student-intake-select">Select Program / Intake:</label>
+    <select id="student-intake-select" class="year-select-dropdown" onchange="selectStudentTab(this.value)">
+      <option value="mtech-2025">2025 Intake (25)</option>
+      <option value="mtech-2024">2024 Intake (4)</option>
+      <option value="idddp">IDDDP (3)</option>
+      <option value="all">All Students (32)</option>
+    </select>
+
+    <div class="quick-year-pills">
+      <button class="quick-pill active" data-target="mtech-2025" onclick="selectStudentTab('mtech-2025')">2025 Intake</button>
+      <button class="quick-pill" data-target="mtech-2024" onclick="selectStudentTab('mtech-2024')">2024 Intake</button>
+      <button class="quick-pill" data-target="idddp" onclick="selectStudentTab('idddp')">IDDDP</button>
+      <button class="quick-pill" data-target="all" onclick="selectStudentTab('all')">All</button>
+    </div>
   </div>
 
   <div id="mtech-2025" class="tab-pane active">

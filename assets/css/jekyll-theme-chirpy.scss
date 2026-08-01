@@ -178,80 +178,96 @@ html[data-theme="light"] #sidebar {
 }
 
 /* =========================================
-   6. Ultra-Clean Segmented Tab Navigation Bar
+   6. Ultra-Modern "Select Year" Filter Bar
    ========================================= */
 
 .tabs-wrapper {
   margin: 16px 0 28px 0;
 }
 
-.tab-nav-container {
-  display: inline-flex;
+.year-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 4px;
-  padding: 4px;
-  background: var(--tag-bg, #f1f5f9);
-  border-radius: 12px;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  background: var(--tag-bg, #f8fafc);
   border: 1px solid var(--card-border-color, #e2e8f0);
-  overflow-x: auto;
-  max-width: 100%;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
 }
 
-.tab-nav-container::-webkit-scrollbar {
-  display: none;
-}
-
-.tab-btn {
-  display: inline-flex;
+.year-filter-label {
+  font-weight: 700;
+  font-size: 0.88em;
+  color: var(--heading-color, #0f172a);
+  display: flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
-  border-radius: 8px;
-  background: transparent;
-  color: var(--text-muted-color, #64748b);
-  border: none;
-  font-size: 0.88em;
-  font-weight: 500;
-  cursor: pointer;
   white-space: nowrap;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
+}
 
-  .badge {
-    font-size: 0.82em;
-    opacity: 0.7;
-    font-weight: 600;
+.year-select-dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--card-bg, #ffffff) url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") no-repeat right 12px center;
+  background-size: 14px;
+  padding: 7px 36px 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border-color, #cbd5e1);
+  color: var(--text-color, #0f172a);
+  font-size: 0.88em;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+  min-width: 170px;
+
+  &:hover, &:focus {
+    border-color: var(--link-color, #0284c7);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
   }
+}
+
+.quick-year-pills {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.quick-pill {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--text-muted-color, #64748b);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
 
   &:hover {
-    color: var(--heading-color, #0f172a);
-    background: rgba(0, 0, 0, 0.04);
+    color: var(--link-color, #0284c7);
+    background: rgba(2, 132, 199, 0.08);
   }
 
   &.active {
-    background: var(--card-bg, #ffffff) !important;
-    color: var(--link-color, #0284c7) !important;
-    font-weight: 700 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
-
-    .badge {
-      opacity: 1;
-      color: var(--link-color, #0284c7) !important;
-    }
+    background: var(--link-color, #0284c7) !important;
+    color: #ffffff !important;
   }
 }
 
 html[data-theme="dark"] {
-  .tab-nav-container {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border-color: rgba(255, 255, 255, 0.1) !important;
+  .year-filter-bar {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
   }
-  .tab-btn.active {
-    background: #1e293b !important;
-    color: #38bdf8 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+  .year-select-dropdown {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
   }
 }
 
@@ -285,6 +301,7 @@ html[data-theme="dark"] {
   box-shadow: 0 10px 24px rgba(2, 132, 199, 0.12) !important;
   border-color: #7dd3fc !important;
 }
+
 
 
 
