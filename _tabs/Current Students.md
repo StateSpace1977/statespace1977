@@ -58,7 +58,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Adarsh Korde</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof.Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof.Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Robotics, Volleyball
     </div>
@@ -79,7 +79,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shubh Shah</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -100,7 +100,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">SARMAN SINGH</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Approximate Multiagent Reinforcement Learning for Urban Mobility. <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Playing Basketball,Cricket and Badminton
     </div>
@@ -121,7 +121,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Soham Banerjee</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Arpita Maam <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Arpita Maam <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Control of Bipeds <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Building stuffs, reading stories, playing games
     </div>
@@ -142,7 +142,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rehan Khan</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -163,7 +163,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Md Saif Ali</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Sukumar Srikant <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Sukumar Srikant <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Exploring the Cosmos
     </div>
@@ -184,7 +184,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vinay Bujja</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Professor Debasish Chatterjee <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Professor Debasish Chatterjee <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Optimization <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -205,7 +205,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Tejash Raj</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Table Tennis , Reading
     </div>
@@ -226,7 +226,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Pamanji Nagaraju</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Raj Anguluri <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Raj Anguluri <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Raj Anguluri <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Teaching & academic content creation
     </div>
@@ -247,7 +247,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">MADDILI AKHIL</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof.Rajasekhar Anguluri <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof.Rajasekhar Anguluri <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Stochastic Interpolants for diffusion models. <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -268,7 +268,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arunodaya devi</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Local motion planning for collaborative multi-robot manipulation of deformable objects <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Playing chess
     </div>
@@ -289,7 +289,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">PRIYA BISWAS</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> arpita sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> arpita sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -310,7 +310,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rahul Kumar</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Dr.Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Dr.Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -331,7 +331,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">LOHITH NAIK R</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -352,7 +352,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arun P Madhu</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Reading, PC gaming,
     </div>
@@ -373,7 +373,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Allan Joseph</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Reading and fitness
     </div>
@@ -394,7 +394,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Amit</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Dr. Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Dr. Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Watching movies, cycling, reading
     </div>
@@ -415,7 +415,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Ajay J</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Collision avoidance on autonomous vessel <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Badminton, Cricket
     </div>
@@ -436,7 +436,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Bharat Kandpal</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof Arpita Sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof Arpita Sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Squash, Table Tennis, Hiking
     </div>
@@ -457,7 +457,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Mandar Maruti Jondhale</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Navin Khaneja <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Navin Khaneja <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Robust control of quantum systems <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Fitness, Volleyball
     </div>
@@ -478,7 +478,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rakesh Krushna Joshi</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Leena Vachhani <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Leena Vachhani <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Space exploration, Meditation, studying ancient history and Indian society, watching sci-fi and romantic drama films.
     </div>
@@ -499,7 +499,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Avi chourasiya</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof.arpita sinha <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof.arpita sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Modelling
     </div>
@@ -520,7 +520,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Mihir Kalal</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Navin Khaneja <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Navin Khaneja <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Robust control of quantum systems <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Badminton, road trips, treks
     </div>
@@ -541,7 +541,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Ayush Vats</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Software Development, Machine Learning
     </div>
@@ -562,7 +562,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Sai Teja Lodagala</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Rajasekhar Anguluri <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Rajasekhar Anguluri <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Audio Signal Processing(Demixing and Remixing of Songs and Individual Stems) <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Playing Chess and Pool.
     </div>
@@ -584,7 +584,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit Patil</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Vivek Natarajan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Vivek Natarajan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> PDE Modelling and MPC <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Running, Marathons
     </div>
@@ -605,7 +605,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Carlyn Medona</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Vivek Natarajan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Vivek Natarajan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Magnetic Bearings <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Sleeping, Eating and Surfing internet
     </div>
@@ -626,7 +626,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shailaja Manchala</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi. N. Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Ravi. N. Banavar <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
     </div>
@@ -647,7 +647,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Narendra Muley</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, History, Geo-politics
     </div>
@@ -669,7 +669,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shreyas N B</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Ravi Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Ravi Banavar <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Robust Least-Squares Optimization and Data Driven Control <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, Volleyball & Badminton, Travel
     </div>
@@ -690,7 +690,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vaibhav Upadhyay</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Debasish Chatterjee <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Debasish Chatterjee <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Constrained feedback synthesis for nonlinear control systems <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Trekking, photography, and ancient Indian philosophy
     </div>
@@ -711,7 +711,7 @@ function selectStudentTab(targetId) {
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arkadeep Saha</span>
     <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> Prof. Ravi Banavar <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Nonlinear state estimation in aerial robotics <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Cinephilia, Reading, Painting
     </div>
