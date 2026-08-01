@@ -4,9 +4,15 @@ icon: fas fa-address-book
 order: 5
 ---
 
+<div class="batch-quick-nav">
+  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
+  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
+  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
+  <a class="batch-nav-item" href="#idddp">IDDDP</a>
+</div>
 
-<details >
-<summary><strong>🎓🎓 IDDDP</strong></summary>
+<details open id="idddp">
+<summary><span>🎓 IDDDP Students</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">3 Students</span></summary>
 
 <br>
 
@@ -77,9 +83,15 @@ order: 5
 
 ---
 
+<div class="batch-quick-nav">
+  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
+  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
+  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
+  <a class="batch-nav-item" href="#idddp">IDDDP</a>
+</div>
 
-<details >
-<summary><strong>🎓 M.Tech 2024 Intake</strong></summary>
+<details open id="mtech-2024">
+<summary><span>🎓 M.Tech 2024 Intake</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">4 Students</span></summary>
 
 <br>
 
@@ -171,9 +183,15 @@ order: 5
 
 ---
 
+<div class="batch-quick-nav">
+  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
+  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
+  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
+  <a class="batch-nav-item" href="#idddp">IDDDP</a>
+</div>
 
-<details >
-<summary><strong>🎓 M.Tech 2025 Intake</strong></summary>
+<details open id="mtech-2025">
+<summary><span>🎓 M.Tech 2025 Intake</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">25 Students</span></summary>
 
 <br>
 

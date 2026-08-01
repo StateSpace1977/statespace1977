@@ -176,3 +176,106 @@ html[data-theme="light"] #sidebar {
   background: rgba(2, 132, 199, 0.2) !important;
   color: #0369a1 !important;
 }
+
+/* =========================================
+   6. Ultra-Modern Interactive Batch Accordions
+   ========================================= */
+
+details {
+  margin: 20px 0 !important;
+  border-radius: 16px !important;
+  border: 1px solid var(--card-border-color, rgba(2, 132, 199, 0.18)) !important;
+  background: var(--card-bg, #ffffff) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03) !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+details[open] {
+  box-shadow: 0 10px 30px rgba(2, 132, 199, 0.12) !important;
+  border-color: var(--link-color, #0284c7) !important;
+}
+
+details summary {
+  list-style: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 18px 24px !important;
+  font-size: 1.15em !important;
+  font-weight: 700 !important;
+  color: var(--heading-color, #0369a1) !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(56, 189, 248, 0.02) 100%) !important;
+  transition: all 0.25s ease-in-out !important;
+
+  &:hover {
+    background: linear-gradient(135deg, rgba(2, 132, 199, 0.14) 0%, rgba(56, 189, 248, 0.06) 100%) !important;
+    color: var(--link-color, #0284c7) !important;
+    transform: translateY(-1px);
+  }
+
+  &::-webkit-details-marker {
+    display: none !important;
+  }
+
+  &::after {
+    content: '❯' !important;
+    font-size: 0.9em !important;
+    font-weight: 800 !important;
+    color: var(--link-color, #0284c7) !important;
+    display: inline-block !important;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    margin-left: 12px !important;
+  }
+}
+
+details[open] > summary {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.18) 0%, rgba(56, 189, 248, 0.08) 100%) !important;
+  border-bottom: 1px solid rgba(2, 132, 199, 0.15) !important;
+
+  &::after {
+    transform: rotate(90deg) !important;
+  }
+}
+
+/* Card hover and micro-animation inside batch containers */
+.student-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.student-card:hover {
+  transform: translateY(-3px) scale(1.005) !important;
+  box-shadow: 0 10px 24px rgba(2, 132, 199, 0.12) !important;
+  border-color: #7dd3fc !important;
+}
+
+/* Interactive batch navigation bar */
+.batch-quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 24px 0;
+  align-items: center;
+}
+
+.batch-nav-item {
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: var(--tag-bg, #e0f2fe);
+  color: var(--link-color, #0284c7);
+  font-weight: 600;
+  font-size: 0.85em;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.batch-nav-item:hover {
+  background: var(--link-color, #0284c7);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+

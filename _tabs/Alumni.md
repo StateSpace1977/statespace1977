@@ -6,8 +6,30 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2025</strong></summary>
+<div class="batch-quick-nav">
+  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Jump to Batch:</span>
+  <a class="batch-nav-item" href="#batch-2025">Batch 2025</a>
+  <a class="batch-nav-item" href="#batch-2024">Batch 2024</a>
+  <a class="batch-nav-item" href="#batch-2023">Batch 2023</a>
+  <a class="batch-nav-item" href="#batch-2022">Batch 2022</a>
+  <a class="batch-nav-item" href="#batch-2021">Batch 2021</a>
+  <a class="batch-nav-item" href="#batch-2020">Batch 2020</a>
+  <a class="batch-nav-item" href="#batch-2019">Batch 2019</a>
+  <a class="batch-nav-item" href="#batch-2018">Batch 2018</a>
+  <a class="batch-nav-item" href="#batch-2017">Batch 2017</a>
+  <a class="batch-nav-item" href="#batch-2016">Batch 2016</a>
+  <a class="batch-nav-item" href="#batch-2014">Batch 2014</a>
+  <a class="batch-nav-item" href="#batch-2005">Batch 2005</a>
+  <a class="batch-nav-item" href="#batch-1999">Batch 1999</a>
+  <a class="batch-nav-item" href="#other-alumni">Other Alumni</a>
+</div>
+
+
+<details open id="batch-2025">
+<summary>
+  <span>🎓 Batch 2025</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">9 Alumni</span>
+</summary>
 
 <br>
 
@@ -132,8 +154,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2024</strong></summary>
+
+<details open id="batch-2024">
+<summary>
+  <span>🎓 Batch 2024</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">27 Alumni</span>
+</summary>
 
 <br>
 
@@ -613,8 +639,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2023</strong></summary>
+
+<details id="batch-2023">
+<summary>
+  <span>🎓 Batch 2023</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">7 Alumni</span>
+</summary>
 
 <br>
 
@@ -713,8 +743,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2022</strong></summary>
+
+<details id="batch-2022">
+<summary>
+  <span>🎓 Batch 2022</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -735,8 +769,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2021</strong></summary>
+
+<details id="batch-2021">
+<summary>
+  <span>🎓 Batch 2021</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">3 Alumni</span>
+</summary>
 
 <br>
 
@@ -783,8 +821,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2020</strong></summary>
+
+<details id="batch-2020">
+<summary>
+  <span>🎓 Batch 2020</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -805,8 +847,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2019</strong></summary>
+
+<details id="batch-2019">
+<summary>
+  <span>🎓 Batch 2019</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
+</summary>
 
 <br>
 
@@ -840,8 +886,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2018</strong></summary>
+
+<details id="batch-2018">
+<summary>
+  <span>🎓 Batch 2018</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">3 Alumni</span>
+</summary>
 
 <br>
 
@@ -888,8 +938,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2017</strong></summary>
+
+<details id="batch-2017">
+<summary>
+  <span>🎓 Batch 2017</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -910,8 +964,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2016</strong></summary>
+
+<details id="batch-2016">
+<summary>
+  <span>🎓 Batch 2016</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -932,8 +990,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2014</strong></summary>
+
+<details id="batch-2014">
+<summary>
+  <span>🎓 Batch 2014</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
+</summary>
 
 <br>
 
@@ -967,8 +1029,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 2005</strong></summary>
+
+<details id="batch-2005">
+<summary>
+  <span>🎓 Batch 2005</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -989,8 +1055,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Batch 1999</strong></summary>
+
+<details id="batch-1999">
+<summary>
+  <span>🎓 Batch 1999</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
+</summary>
 
 <br>
 
@@ -1011,8 +1081,12 @@ order: 4
 
 ---
 
-<details >
-<summary><strong>🎓 Other Alumni</strong></summary>
+
+<details id="other-alumni">
+<summary>
+  <span>🎓 Other Alumni</span>
+  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
+</summary>
 
 <br>
 
