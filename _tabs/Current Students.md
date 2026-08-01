@@ -4,197 +4,30 @@ icon: fas fa-address-book
 order: 5
 ---
 
-<div class="batch-quick-nav">
-  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
-  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
-  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
-  <a class="batch-nav-item" href="#idddp">IDDDP</a>
-</div>
+<script>
+function switchTab(btn, targetId) {
+  const container = btn.closest(".tabs-wrapper");
+  container.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  container.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+  btn.classList.add("active");
+  if (targetId === "all") {
+    container.querySelectorAll(".tab-pane").forEach(p => p.classList.add("active"));
+  } else {
+    const target = container.querySelector("#" + targetId);
+    if (target) target.classList.add("active");
+  }
+}
+</script>
 
-<details open id="idddp">
-<summary><span>🎓 IDDDP Students</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">3 Students</span></summary>
-
-<br>
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Shreyas N B.jpg" alt="Shreyas N B" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+<div class="tabs-wrapper">
+  <div class="tab-nav-container">
+    <button class="tab-btn active" onclick="switchTab(this, 'mtech-2025')">🎓 M.Tech 2025 Intake <span class="badge">25</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'mtech-2024')">🎓 M.Tech 2024 Intake <span class="badge">4</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'idddp')">🎓 IDDDP <span class="badge">3</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'all')">View All <span class="badge">32</span></button>
   </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shreyas N B</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Ravi Banavar <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Robust Least-Squares Optimization and Data Driven Control <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, Volleyball & Badminton, Travel
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Nonlinear control, Differential geometry, Robotics</span>
-      <a href="mailto:shreyasnb@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
 
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Vaibhav Upadhyay.jpg" alt="Vaibhav Upadhyay" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vaibhav Upadhyay</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Debasish Chatterjee <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Constrained feedback synthesis for nonlinear control systems <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Trekking, photography, and ancient Indian philosophy
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Applied mathematics</span>
-      <a href="mailto:vaibhav.u@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/others/Arkadeep Saha.jpg" alt="Arkadeep Saha" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arkadeep Saha</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi Banavar <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Nonlinear state estimation in aerial robotics <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Cinephilia, Reading, Painting
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Robotics, State Estimation, SLAM</span>
-      <a href="mailto:22b1270@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-</details>
-
-
----
-
-<div class="batch-quick-nav">
-  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
-  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
-  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
-  <a class="batch-nav-item" href="#idddp">IDDDP</a>
-</div>
-
-<details open id="mtech-2024">
-<summary><span>🎓 M.Tech 2024 Intake</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">4 Students</span></summary>
-
-<br>
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Rohit Patil.jpg" alt="Rohit Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit Patil</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Vivek Natarajan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> PDE Modelling and MPC <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Running, Marathons
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Controls & Robotics</span>
-      <a href="mailto:24m0135@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Carlyn Medona.jpg" alt="Carlyn Medona" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Carlyn Medona</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Vivek Natarajan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Magnetic Bearings <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Sleeping, Eating and Surfing internet
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control systems and Signal Processing</span>
-      <a href="mailto:24m2018@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Shailaja Manchala.jpg" alt="Shailaja Manchala" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shailaja Manchala</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi. N. Banavar <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: nan</span>
-      <a href="mailto:shailajamanchala@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-  <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Narendra Muley.jpg" alt="Narendra Muley" style="width: 100%; height: auto; display: block; border-radius: 4px;">
-  </div>
-  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
-    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Narendra Muley</span>
-    <div style="font-size: 0.9em; line-height: 1.4;">
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, History, Geo-politics
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control Systems, Power Electronics and Machines</span>
-      <a href="mailto:24m2020@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
-        <span>✉</span> Email
-      </a>
-    </div>
-  </div>
-</div>
-
-</details>
-
-
----
-
-<div class="batch-quick-nav">
-  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Intake Batches:</span>
-  <a class="batch-nav-item" href="#mtech-2025">M.Tech 2025 Intake</a>
-  <a class="batch-nav-item" href="#mtech-2024">M.Tech 2024 Intake</a>
-  <a class="batch-nav-item" href="#idddp">IDDDP</a>
-</div>
-
-<details open id="mtech-2025">
-<summary><span>🎓 M.Tech 2025 Intake</span> <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600;">25 Students</span></summary>
-
-<br>
-
+  <div id="mtech-2025" class="tab-pane active">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
     <img src="/assets/students/25/Adarsh Korde.jpg" alt="Adarsh Korde" style="width: 100%; height: auto; display: block; border-radius: 4px;">
@@ -718,5 +551,154 @@ order: 5
     </div>
   </div>
 </div>
+  </div>
 
-</details>
+  <div id="mtech-2024" class="tab-pane">
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/24/Rohit Patil.jpg" alt="Rohit Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit Patil</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Vivek Natarajan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> PDE Modelling and MPC <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Running, Marathons
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Controls & Robotics</span>
+      <a href="mailto:24m0135@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/24/Carlyn Medona.jpg" alt="Carlyn Medona" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Carlyn Medona</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Vivek Natarajan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Magnetic Bearings <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Sleeping, Eating and Surfing internet
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control systems and Signal Processing</span>
+      <a href="mailto:24m2018@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/24/Shailaja Manchala.jpg" alt="Shailaja Manchala" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shailaja Manchala</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi. N. Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: nan</span>
+      <a href="mailto:shailajamanchala@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/24/Narendra Muley.jpg" alt="Narendra Muley" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Narendra Muley</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, History, Geo-politics
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control Systems, Power Electronics and Machines</span>
+      <a href="mailto:24m2020@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div id="idddp" class="tab-pane">
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/others/Shreyas N B.jpg" alt="Shreyas N B" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shreyas N B</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Ravi Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Robust Least-Squares Optimization and Data Driven Control <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Books, Volleyball & Badminton, Travel
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Nonlinear control, Differential geometry, Robotics</span>
+      <a href="mailto:shreyasnb@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/others/Vaibhav Upadhyay.jpg" alt="Vaibhav Upadhyay" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vaibhav Upadhyay</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Debasish Chatterjee <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Constrained feedback synthesis for nonlinear control systems <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Trekking, photography, and ancient Indian philosophy
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Applied mathematics</span>
+      <a href="mailto:vaibhav.u@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/others/Arkadeep Saha.jpg" alt="Arkadeep Saha" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Arkadeep Saha</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Ravi Banavar <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Nonlinear state estimation in aerial robotics <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Cinephilia, Reading, Painting
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Robotics, State Estimation, SLAM</span>
+      <a href="mailto:22b1270@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>

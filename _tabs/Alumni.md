@@ -4,35 +4,35 @@ icon: fas fa-address-book
 order: 4
 ---
 
----
+<script>
+function switchTab(btn, targetId) {
+  const container = btn.closest(".tabs-wrapper");
+  container.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  container.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+  btn.classList.add("active");
+  if (targetId === "all") {
+    container.querySelectorAll(".tab-pane").forEach(p => p.classList.add("active"));
+  } else {
+    const target = container.querySelector("#" + targetId);
+    if (target) target.classList.add("active");
+  }
+}
+</script>
 
-<div class="batch-quick-nav">
-  <span style="font-weight: 700; color: var(--heading-color); font-size: 0.9em;">Jump to Batch:</span>
-  <a class="batch-nav-item" href="#batch-2025">Batch 2025</a>
-  <a class="batch-nav-item" href="#batch-2024">Batch 2024</a>
-  <a class="batch-nav-item" href="#batch-2023">Batch 2023</a>
-  <a class="batch-nav-item" href="#batch-2022">Batch 2022</a>
-  <a class="batch-nav-item" href="#batch-2021">Batch 2021</a>
-  <a class="batch-nav-item" href="#batch-2020">Batch 2020</a>
-  <a class="batch-nav-item" href="#batch-2019">Batch 2019</a>
-  <a class="batch-nav-item" href="#batch-2018">Batch 2018</a>
-  <a class="batch-nav-item" href="#batch-2017">Batch 2017</a>
-  <a class="batch-nav-item" href="#batch-2016">Batch 2016</a>
-  <a class="batch-nav-item" href="#batch-2014">Batch 2014</a>
-  <a class="batch-nav-item" href="#batch-2005">Batch 2005</a>
-  <a class="batch-nav-item" href="#batch-1999">Batch 1999</a>
-  <a class="batch-nav-item" href="#other-alumni">Other Alumni</a>
-</div>
+<div class="tabs-wrapper">
+  <div class="tab-nav-container">
+    <button class="tab-btn active" onclick="switchTab(this, 'batch-2025')">🎓 Batch 2025 <span class="badge">9</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2024')">🎓 Batch 2024 <span class="badge">27</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2023')">🎓 Batch 2023 <span class="badge">7</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2022')">🎓 Batch 2022 <span class="badge">1</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2021')">🎓 Batch 2021 <span class="badge">3</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2020')">🎓 Batch 2020 <span class="badge">1</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'batch-2019')">🎓 Batch 2019 <span class="badge">2</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'older-batches')">🎓 Older Batches <span class="badge">11</span></button>
+    <button class="tab-btn" onclick="switchTab(this, 'all')">View All <span class="badge">61</span></button>
+  </div>
 
-
-<details open id="batch-2025">
-<summary>
-  <span>🎓 Batch 2025</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">9 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2025" class="tab-pane active">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Aditya Ashribad</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -149,20 +149,9 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2025</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details open id="batch-2024">
-<summary>
-  <span>🎓 Batch 2024</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">27 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2024" class="tab-pane">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
     <img src="/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" style="width: 100%; height: auto; display: block; border-radius: 4px;">
@@ -634,20 +623,9 @@ order: 4
     </div>
   </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2023">
-<summary>
-  <span>🎓 Batch 2023</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">7 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2023" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Akash Deep Arya</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -738,20 +716,9 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2023</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2022">
-<summary>
-  <span>🎓 Batch 2022</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2022" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anuj Sanjay Vora</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -764,20 +731,9 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2022</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2021">
-<summary>
-  <span>🎓 Batch 2021</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">3 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2021" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dr. Kiran Kumari</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -816,20 +772,9 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2021</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2020">
-<summary>
-  <span>🎓 Batch 2020</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2020" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Saurabh Dhamne</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -842,20 +787,9 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2020</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2019">
-<summary>
-  <span>🎓 Batch 2019</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="batch-2019" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Harivardhan Geddada</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -881,20 +815,10 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2019</span>
     </div>
 </div>
+  </div>
 
-</details>
-
----
-
-
-<details id="batch-2018">
-<summary>
-  <span>🎓 Batch 2018</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">3 Alumni</span>
-</summary>
-
-<br>
-
+  <div id="older-batches" class="tab-pane">
+<h3>🎓 Batch 2018</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anurag Kashyap</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -934,19 +858,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="batch-2017">
-<summary>
-  <span>🎓 Batch 2017</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Batch 2017</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Rakesh R Warier</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -960,19 +872,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="batch-2016">
-<summary>
-  <span>🎓 Batch 2016</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Batch 2016</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sarat Chandra Nagavarapu</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -986,19 +886,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="batch-2014">
-<summary>
-  <span>🎓 Batch 2014</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Batch 2014</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ajay Singh</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -1025,19 +913,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="batch-2005">
-<summary>
-  <span>🎓 Batch 2005</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Batch 2005</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Dhananjay Balu Talange</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -1051,19 +927,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="batch-1999">
-<summary>
-  <span>🎓 Batch 1999</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">1 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Batch 1999</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">S Jayakumar</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -1077,19 +941,7 @@ order: 4
     </div>
 </div>
 
-</details>
-
----
-
-
-<details id="other-alumni">
-<summary>
-  <span>🎓 Other Alumni</span>
-  <span style="font-size: 0.85em; opacity: 0.7; font-weight: 600; background: var(--tag-bg, rgba(2, 132, 199, 0.1)); padding: 2px 10px; border-radius: 12px;">2 Alumni</span>
-</summary>
-
-<br>
-
+<h3>🎓 Other Alumni</h3>
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Prashant Patil</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -1116,5 +968,5 @@ order: 4
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch N/A</span>
     </div>
 </div>
-
-</details>
+  </div>
+</div>

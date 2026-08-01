@@ -178,69 +178,92 @@ html[data-theme="light"] #sidebar {
 }
 
 /* =========================================
-   6. Ultra-Modern Interactive Batch Accordions
+   6. Ultra-Sleek Interactive Pill Tabs System
    ========================================= */
 
-details {
-  margin: 20px 0 !important;
-  border-radius: 16px !important;
-  border: 1px solid var(--card-border-color, rgba(2, 132, 199, 0.18)) !important;
-  background: var(--card-bg, #ffffff) !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03) !important;
-  overflow: hidden !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+.tab-nav-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 8px 4px 16px 4px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid var(--card-border-color, #e2e8f0);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
 
-details[open] {
-  box-shadow: 0 10px 30px rgba(2, 132, 199, 0.12) !important;
-  border-color: var(--link-color, #0284c7) !important;
+.tab-nav-container::-webkit-scrollbar {
+  display: none;
 }
 
-details summary {
-  list-style: none !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  padding: 18px 24px !important;
-  font-size: 1.15em !important;
-  font-weight: 700 !important;
-  color: var(--heading-color, #0369a1) !important;
-  cursor: pointer !important;
-  user-select: none !important;
-  background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(56, 189, 248, 0.02) 100%) !important;
-  transition: all 0.25s ease-in-out !important;
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background: var(--card-bg, #f8fafc);
+  color: var(--text-muted-color, #64748b);
+  border: 1px solid var(--card-border-color, #e2e8f0);
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+
+  .badge {
+    background: var(--tag-bg, #e0f2fe);
+    color: var(--link-color, #0284c7);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.78em;
+    font-weight: 700;
+    transition: all 0.2s ease;
+  }
 
   &:hover {
-    background: linear-gradient(135deg, rgba(2, 132, 199, 0.14) 0%, rgba(56, 189, 248, 0.06) 100%) !important;
-    color: var(--link-color, #0284c7) !important;
-    transform: translateY(-1px);
+    background: var(--tag-bg, #e0f2fe);
+    color: var(--link-color, #0284c7);
+    border-color: #bae6fd;
+    transform: translateY(-2px);
   }
 
-  &::-webkit-details-marker {
-    display: none !important;
-  }
+  &.active {
+    background: var(--link-color, #0284c7) !important;
+    color: #ffffff !important;
+    border-color: var(--link-color, #0284c7) !important;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
 
-  &::after {
-    content: '❯' !important;
-    font-size: 0.9em !important;
-    font-weight: 800 !important;
-    color: var(--link-color, #0284c7) !important;
-    display: inline-block !important;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    margin-left: 12px !important;
-  }
-}
-
-details[open] > summary {
-  background: linear-gradient(135deg, rgba(2, 132, 199, 0.18) 0%, rgba(56, 189, 248, 0.08) 100%) !important;
-  border-bottom: 1px solid rgba(2, 132, 199, 0.15) !important;
-
-  &::after {
-    transform: rotate(90deg) !important;
+    .badge {
+      background: rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+    }
   }
 }
 
-/* Card hover and micro-animation inside batch containers */
+.tab-pane {
+  display: none;
+  animation: tabFadeIn 0.3s ease-out forwards;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+@keyframes tabFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card hover inside tab views */
 .student-card {
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
@@ -251,31 +274,4 @@ details[open] > summary {
   border-color: #7dd3fc !important;
 }
 
-/* Interactive batch navigation bar */
-.batch-quick-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 16px 0 24px 0;
-  align-items: center;
-}
-
-.batch-nav-item {
-  padding: 6px 14px;
-  border-radius: 20px;
-  background: var(--tag-bg, #e0f2fe);
-  color: var(--link-color, #0284c7);
-  font-weight: 600;
-  font-size: 0.85em;
-  text-decoration: none !important;
-  border: 1px solid transparent;
-  transition: all 0.2s ease;
-}
-
-.batch-nav-item:hover {
-  background: var(--link-color, #0284c7);
-  color: #ffffff !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
-}
 
