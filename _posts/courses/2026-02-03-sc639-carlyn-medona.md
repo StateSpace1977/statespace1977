@@ -7,60 +7,79 @@ tags: [SC639]
 render_with_liquid: false
 ---
 
-## Timestamp
-02/03/2026 15:13:59
+<div class="review-card">
 
-## Email address
-carlynmedonacm@gmail.com
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Mathematical structures of control</span>
+    <span class="review-meta">SC639 · Ravi Banavar</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2024-25</span>
+</div>
 
-## Student's Name
-Carlyn Medona
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Carlyn Medona</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24M2018</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">SC639</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Ravi Banavar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2024-25</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
+</div>
+</div>
 
-## Student's Roll Number
-24M2018
-
-## Course Code
-SC639
-
-## Course Name
-Mathematical structures of control
-
-## Instructor
-Ravi Banavar
-
-## Year
-2024-25
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Assignment-35%, Quizzes-45%, Project-20%
-
-## Course Content
-First Half Linear Algebra, Second Half Real analysis
-
-## Feedback on Lectures
-Mostly taught by TAs
-
-## Feedback on Assignments/Tutorials/Homework
-Easy
-
-## Feedback on Exams
-Easy
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-4
-
-## Textbooks/References
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">## Grading Criteria (what was marks distribution for exams/assignments/etc..)<br>Assignment-35%, Quizzes-45%, Project-20%</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Assignment-35%, Quizzes-45%, Project-20%</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">First Half Linear Algebra, Second Half Real analysis</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">Mostly taught by TAs</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Easy</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">Easy</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)<br>none</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">none</div>
+</div>
 
 
-## Software Used (If any)
-none
-
-## Final Takeaway
-
-
+</div>

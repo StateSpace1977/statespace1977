@@ -8,60 +8,83 @@ tags:
 - SC625
 render_with_liquid: false
 ---
-## Timestamp
-26/02/2026 15:46:05
 
-## Email address
-jatinjanshali@gmail.com
+<div class="review-card">
 
-## Student's Name
-Jatinkumar 
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">System theory</span>
+    <span class="review-meta">Sc 625 · Prof vivek natrajan</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2024</span>
+</div>
 
-## Student's Roll Number
-24m2021
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Jatinkumar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m2021</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">Sc 625</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Prof vivek natrajan</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2024</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
+</div>
+</div>
 
-## Course Code
-Sc 625
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Nil</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">## Course Content<br>Linear control theory</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Linear control theory</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">In detail and rigorous</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Adequate to bring the clarity in the concept</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">Both theory and numerical carry equal proportion</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)<br>Matlab</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">Matlab</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🏁 Final Takeaway</span>
+  <div class="review-block-value">Course is foundation for syscon students and must be completed before taking any other control course</div>
+</div>
 
-## Course Name
-System theory
-
-## Instructor
-Prof vivek natrajan
-
-## Year
-2024
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Nil
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-
-
-## Course Content
-Linear control theory
-
-## Feedback on Lectures
-In detail and rigorous
-
-## Feedback on Assignments/Tutorials/Homework
-Adequate to bring the clarity in the concept
-
-## Feedback on Exams
-Both theory and numerical carry equal proportion 
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-3
-
-## Textbooks/References
-
-
-## Software Used (If any)
-Matlab
-
-## Final Takeaway
-Course is foundation for syscon students and must be completed before taking any other control course
-
+</div>

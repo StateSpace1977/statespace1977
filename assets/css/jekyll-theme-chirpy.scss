@@ -300,8 +300,200 @@ html[data-theme="dark"] {
   transform: translateY(-3px) scale(1.005) !important;
   box-shadow: 0 10px 24px rgba(2, 132, 199, 0.12) !important;
   border-color: #7dd3fc !important;
+}/* =========================================
+   7. Clean Review Card Styles
+   ========================================= */
+
+.review-card {
+  border: 1px solid var(--card-border-color, #e2e8f0);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--card-bg, #ffffff);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
 }
 
+/* Header */
+.review-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.07) 0%, rgba(56, 189, 248, 0.03) 100%);
+  border-bottom: 1px solid var(--card-border-color, #e2e8f0);
+  flex-wrap: wrap;
+}
 
+.review-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.review-company-name {
+  font-size: 1.35em;
+  font-weight: 800;
+  color: var(--heading-color, #0f172a);
+  line-height: 1.2;
+}
+
+.review-meta {
+  font-size: 0.88em;
+  color: var(--text-muted-color, #64748b);
+  font-weight: 500;
+}
+
+.review-tag {
+  display: inline-block;
+  background: var(--tag-bg, #e0f2fe);
+  color: var(--link-color, #0284c7);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.82em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Verdict badge */
+.review-verdict-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.badge-selected {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.badge-rejected {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.badge-neutral {
+  background: #fef9c3;
+  color: #ca8a04;
+}
+
+html[data-theme="dark"] .badge-selected {
+  background: rgba(22, 163, 74, 0.2) !important;
+  color: #4ade80 !important;
+}
+
+html[data-theme="dark"] .badge-rejected {
+  background: rgba(220, 38, 38, 0.2) !important;
+  color: #f87171 !important;
+}
+
+html[data-theme="dark"] .badge-neutral {
+  background: rgba(202, 138, 4, 0.2) !important;
+  color: #facc15 !important;
+}
+
+/* Info grid */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0;
+  border-bottom: 1px solid var(--card-border-color, #e2e8f0);
+}
+
+.review-field {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px;
+  border-right: 1px solid var(--card-border-color, #e2e8f0);
+  border-bottom: 1px solid var(--card-border-color, #e2e8f0);
+  gap: 4px;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.review-label {
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted-color, #94a3b8);
+}
+
+.review-value {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--heading-color, #0f172a);
+}
+
+/* Block fields (long text) */
+.review-field-block {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--card-border-color, #e2e8f0);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .review-label {
+    margin-bottom: 2px;
+  }
+}
+
+.review-block-value {
+  font-size: 0.93em;
+  line-height: 1.7;
+  color: var(--text-color, #334155);
+}
+
+/* Rounds */
+.review-rounds-section {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--card-border-color, #e2e8f0);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.review-section-title {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: var(--heading-color, #0f172a);
+  margin: 0 0 4px 0;
+  letter-spacing: 0.01em;
+}
+
+.review-round {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.review-round-badge {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  background: var(--tag-bg, #e0f2fe);
+  color: var(--link-color, #0284c7);
+  border-radius: 20px;
+  font-size: 0.78em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.review-round-content {
+  font-size: 0.92em;
+  line-height: 1.65;
+  color: var(--text-color, #334155);
+}
+
+/* Difficulty dots */
+.diff-dots {
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  color: var(--link-color, #0284c7);
+}
 
 

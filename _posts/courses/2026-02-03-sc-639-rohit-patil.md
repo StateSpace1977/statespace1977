@@ -8,60 +8,83 @@ tags:
 - SC639
 render_with_liquid: false
 ---
-## Timestamp
-02/03/2026 23:45:26
 
-## Email address
-rohitdpatil1718@gmail.com
+<div class="review-card">
 
-## Student's Name
-Rohit Patil
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Mathematical Structure for Control</span>
+    <span class="review-meta">SC 639 · Prof. Ravi Banawar</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2024</span>
+</div>
 
-## Student's Roll Number
-24m0135
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Rohit Patil</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m0135</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">SC 639</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Prof. Ravi Banawar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2024</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
+</div>
+</div>
 
-## Course Code
-SC 639
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Linear algebra, vector calculus(GATE Level)</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Quiz 1, Quiz 2, Quiz 3, Midsem, Endsem</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Vector spaces, Sequence and series, Multivariable calculus</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">Proof based and mathematics heavy lectures, you need to pay all your attention to the board then it's well and good.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Good difficulty, must attempt all tutorials</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">Good difficulty, based on assignments and classroom lecture content</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">## Final Takeaway<br>If you like mathematics and mechanics, this course is the sweet spot between the two. It is quite rigorous just like any math course.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🏁 Final Takeaway</span>
+  <div class="review-block-value">If you like mathematics and mechanics, this course is the sweet spot between the two. It is quite rigorous just like any math course.</div>
+</div>
 
-## Course Name
-Mathematical Structure for Control
-
-## Instructor
-Prof. Ravi Banawar
-
-## Year
-2024
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Linear algebra, vector calculus(GATE Level)
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Quiz 1, Quiz 2, Quiz 3, Midsem, Endsem
-
-## Course Content
-Vector spaces, Sequence and series, Multivariable calculus
-
-## Feedback on Lectures
- Proof based and mathematics heavy lectures, you need to pay all your attention to the board then it's well and good.
-
-## Feedback on Assignments/Tutorials/Homework
-Good difficulty, must attempt all tutorials
-
-## Feedback on Exams
-Good difficulty, based on assignments and classroom lecture content
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-4
-
-## Textbooks/References
-
-
-## Software Used (If any)
-
-
-## Final Takeaway
-If you like mathematics and mechanics, this course is the sweet spot between the two. It is quite rigorous just like any math course.
-
+</div>

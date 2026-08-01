@@ -7,60 +7,82 @@ tags: [SC649]
 render_with_liquid: false
 ---
 
-## Timestamp
-28/02/2026 15:21:36
+<div class="review-card">
 
-## Email address
-jatinjanshali@gmail.com
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Embedded control and robotics</span>
+    <span class="review-meta">SC649 · Prof leena vachani</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2024</span>
+</div>
 
-## Student's Name
-Jatinkumar 
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Jatinkumar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m2021</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">SC649</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Prof leena vachani</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2024</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
+</div>
+</div>
 
-## Student's Roll Number
-24m2021 
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Linear control theory</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Relative</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Mostly focus on Control technique mostly PID, introduction  to Robotics basics, type of robot , filter design ( bayseian, kalman)</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">Course is mainly focused on practical implementation</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Assignments are real hardware implementation, intensive but brings clarity in concept</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">Quiz based but focus on real time hardware implementation</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">## Final Takeaway<br>Student who wants to learn implementations aspects of kalman filter and tracking objective must take this course. Entire course is focused on hardware implementaion</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🏁 Final Takeaway</span>
+  <div class="review-block-value">Student who wants to learn implementations aspects of kalman filter and tracking objective must take this course. Entire course is focused on hardware implementaion</div>
+</div>
 
-## Course Code
-SC649
-
-## Course Name
-Embedded control and robotics 
-
-## Instructor
-Prof leena vachani
-
-## Year
-2024
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Linear control theory
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Relative
-
-## Course Content
-Mostly focus on Control technique mostly PID, introduction  to Robotics basics, type of robot , filter design ( bayseian, kalman)
-
-## Feedback on Lectures
-Course is mainly focused on practical implementation
-
-## Feedback on Assignments/Tutorials/Homework
-Assignments are real hardware implementation, intensive but brings clarity in concept
-
-## Feedback on Exams
-Quiz based but focus on real time hardware implementation
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-3
-
-## Textbooks/References
-
-
-## Software Used (If any)
-
-
-## Final Takeaway
-Student who wants to learn implementations aspects of kalman filter and tracking objective must take this course. Entire course is focused on hardware implementaion 
-
+</div>

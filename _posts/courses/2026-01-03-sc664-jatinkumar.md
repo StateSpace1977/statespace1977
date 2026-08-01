@@ -8,60 +8,83 @@ tags:
 - SC664
 render_with_liquid: false
 ---
-## Timestamp
-01/03/2026 16:23:53
 
-## Email address
-jatinjanshali@gmail.com
+<div class="review-card">
 
-## Student's Name
-Jatinkumar 
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Active vibration and control</span>
+    <span class="review-meta">Sc664 · Prof Vivek Natrajan</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2025</span>
+</div>
 
-## Student's Roll Number
-24m2021
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Jatinkumar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m2021</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">Sc664</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Prof Vivek Natrajan</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2025</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●○○</span> 3/5</span>
+</div>
+</div>
 
-## Course Code
-Sc664
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Linear control system</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Relative</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Active vibration control for signal with known and unknown frequencies</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">The lectures beautifully blend transfer function and state space approach  and stability analysis. Lectures are mostly based on technical paper in the AVC and based on esrablished methods.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Matlab based simulation</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">quiz and paper discussion</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)<br>Matlab</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">Matlab</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🏁 Final Takeaway</span>
+  <div class="review-block-value">The course covers variety of controller so it will help students to learn controller design methodologies. This course is essential for mechanical, aeronautical and controls students. The vibration control is just selected as a problem statement but essentially the course focuses on selection and implementations of various controller, formulation of control problem and approach to address the solution.</div>
+</div>
 
-## Course Name
-Active vibration and control
-
-## Instructor
-Prof Vivek Natrajan
-
-## Year
-2025
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Linear control system
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Relative
-
-## Course Content
-Active vibration control for signal with known and unknown frequencies
-
-## Feedback on Lectures
-The lectures beautifully blend transfer function and state space approach  and stability analysis. Lectures are mostly based on technical paper in the AVC and based on esrablished methods. 
-
-## Feedback on Assignments/Tutorials/Homework
-Matlab based simulation
-
-## Feedback on Exams
-quiz and paper discussion
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-3
-
-## Textbooks/References
-
-
-## Software Used (If any)
-Matlab
-
-## Final Takeaway
-The course covers variety of controller so it will help students to learn controller design methodologies. This course is essential for mechanical, aeronautical and controls students. The vibration control is just selected as a problem statement but essentially the course focuses on selection and implementations of various controller, formulation of control problem and approach to address the solution. 
-
+</div>

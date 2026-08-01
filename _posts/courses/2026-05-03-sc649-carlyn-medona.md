@@ -7,60 +7,79 @@ tags: [SC649]
 render_with_liquid: false
 ---
 
-## Timestamp
-05/03/2026 16:07:02
+<div class="review-card">
 
-## Email address
-carlynmedonacm@gmail.com
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Embedded Control and Robotics</span>
+    <span class="review-meta">SC649 · Leena Vachhani</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2024-25</span>
+</div>
 
-## Student's Name
-Carlyn Medona
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Carlyn Medona</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24M2018</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">SC649</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Leena Vachhani</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2024-25</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
+</div>
+</div>
 
-## Student's Roll Number
-24M2018
-
-## Course Code
-SC649
-
-## Course Name
-Embedded Control and Robotics
-
-## Instructor
-Leena Vachhani 
-
-## Year
-2024-25
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Control theory, Embedded systems, Digital systems
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Assignments-60%, Final Project+Viva-40%
-
-## Course Content
-Embedded Technologies, Mobile robot kinematics, Sensors and actuators, Localization
-
-## Feedback on Lectures
-The lectures were hybrid. Weekly one lecture taken by prof, the other is a tutorial session held in ARMS Lab. The course theory part is a bit heavy.
-
-## Feedback on Assignments/Tutorials/Homework
-Medium difficulty
-
-## Feedback on Exams
-Only a small quiz conducted as part of midsem. Difficulty level-moderate
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-4
-
-## Textbooks/References
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Control theory, Embedded systems, Digital systems</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Assignments-60%, Final Project+Viva-40%</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Embedded Technologies, Mobile robot kinematics, Sensors and actuators, Localization</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">The lectures were hybrid. Weekly one lecture taken by prof, the other is a tutorial session held in ARMS Lab. The course theory part is a bit heavy.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Medium difficulty</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">Only a small quiz conducted as part of midsem. Difficulty level-moderate</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">## Software Used (If any)<br>ROS, Gazebo, Arduino, Python</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">ROS, Gazebo, Arduino, Python</div>
+</div>
 
 
-## Software Used (If any)
-ROS, Gazebo, Arduino, Python
-
-## Final Takeaway
-
-
+</div>

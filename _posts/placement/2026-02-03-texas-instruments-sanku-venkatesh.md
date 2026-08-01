@@ -8,66 +8,84 @@ tags:
 render_with_liquid: false
 author: Sanku Venkatesh
 ---
-## Timestamp
-02/03/2026 16:19:02
 
-## Email address
-24m2002@iitb.ac.in
+<div class="review-card">
 
-## Student's Name
-SANKU VENKATESH
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Texas Instruments</span>
+    <span class="review-meta">Software · Embedded software engineer</span>
+  </div>
+  <div>
+    <span class="review-verdict-badge badge-rejected">Rejected</span>
+  </div>
+</div>
 
-## Student's Roll Number
-24M2002
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Student</span>
+  <span class="review-value">SANKU VENKATESH</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24M2002</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Placement Year</span>
+  <span class="review-value">2026</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📆 Season</span>
+  <span class="review-value">Phase 1</span>
+</div>
+<div class="review-field">
+  <span class="review-label">💼 Position</span>
+  <span class="review-value">Embedded software engineer</span>
+</div>
+<div class="review-field">
+  <span class="review-label">💰 Compensation</span>
+  <span class="review-value">## Job Description</span>
+</div>
+</div>
 
-## Placement Year
-2026
+<div class="review-field-block">
+  <span class="review-label">📋 Job Description</span>
+  <div class="review-block-value">## Online Test/ Screening Details<br>Data structures and programming . Not sure about platform. 1 hour 30 min</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🖥️ Online Test / Screening</span>
+  <div class="review-block-value">Data structures and programming . Not sure about platform. 1 hour 30 min</div>
+</div>
+<div class="review-field">
+  <span class="review-label">✅ Selected for Interview?</span>
+  <span class="review-value">Yes</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🔄 Total Interview Rounds</span>
+  <span class="review-value">1</span>
+</div>
 
-## Placement season
-Phase 1
+<div class="review-rounds-section"><h3 class="review-section-title">📝 Interview Rounds</h3><div class="review-round">
+  <span class="review-round-badge">Round 1</span>
+  <div class="review-round-content">Technical about operating systems, computer architecture, and embedded C programming and data structures. Approximately 45 minutes</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 2</span>
+  <div class="review-round-content">## Round 3</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 3</span>
+  <div class="review-round-content">## Round 4</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 4</span>
+  <div class="review-round-content">## Final Verdict<br>Rejected</div>
+</div></div>
 
-## Company Name
-Texas Instruments
+<div class="review-field-block">
+  <span class="review-label">🎯 Preparation Strategy</span>
+  <div class="review-block-value">## Suggestions/Tips<br>Better to do embedded projects and basics of embedded programming</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💡 Suggestions & Tips</span>
+  <div class="review-block-value">Better to do embedded projects and basics of embedded programming</div>
+</div>
 
-## Domain
-Software
-
-## Position/Job Titlle
-Embedded software engineer
-
-## Compensation Details
-
-
-## Job Description
-
-
-## Online Test/ Screening Details
-Data structures and programming . Not sure about platform. 1 hour 30 min
-
-## Selected for Interview?
-Yes
-
-## Total Interview Rounds
-1
-
-## Round 1
-Technical about operating systems, computer architecture, and embedded C programming and data structures. Approximately 45 minutes
-
-## Round 2
-
-
-## Round 3
-
-
-## Round 4
-
-
-## Final Verdict
-Rejected
-
-## Any preparation strategy
-
-
-## Suggestions/Tips
-Better to do embedded projects and basics of embedded programming
-
+</div>

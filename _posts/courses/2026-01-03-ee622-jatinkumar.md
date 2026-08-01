@@ -8,60 +8,83 @@ tags:
 - EE622
 render_with_liquid: false
 ---
-## Timestamp
-01/03/2026 16:09:27
 
-## Email address
-jatinjanshali@gmail.com
+<div class="review-card">
 
-## Student's Name
-Jatinkumar
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Optimal control</span>
+    <span class="review-meta">Ee622 · Prof dwipayan mukherji</span>
+  </div>
+  <span class="review-tag">Autumn Semester (Aug - Dec), 2025</span>
+</div>
 
-## Student's Roll Number
-24m2021
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Reviewed by</span>
+  <span class="review-value">Jatinkumar</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m2021</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📘 Course Code</span>
+  <span class="review-value">Ee622</span>
+</div>
+<div class="review-field">
+  <span class="review-label">👩‍🏫 Instructor</span>
+  <span class="review-value">Prof dwipayan mukherji</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Year</span>
+  <span class="review-value">2025</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🗓️ Semester</span>
+  <span class="review-value">Autumn Semester (Aug - Dec)</span>
+</div>
+<div class="review-field">
+  <span class="review-label">⚡ Difficulty</span>
+  <span class="review-value"><span class="diff-dots">●●●●○</span> 4/5</span>
+</div>
+</div>
 
-## Course Code
-Ee622
+<div class="review-field-block">
+  <span class="review-label">🔗 Prerequisites</span>
+  <div class="review-block-value">Linear algebra, calulus</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📊 Grading Criteria</span>
+  <div class="review-block-value">Relative</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📚 Course Content</span>
+  <div class="review-block-value">Langeangian and hamiltonoa mechanics, Static and dynamic optimization, LQR method, pontraygin maximum principle and linear pogramming</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🎙️ Feedback on Lectures</span>
+  <div class="review-block-value">Lectures are in depth analysis of optimization with rigorous proof and very much involved but at same time very much interesting.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📝 Feedback on Assignments</span>
+  <div class="review-block-value">Mostly numerical length and involved</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📋 Feedback on Exams</span>
+  <div class="review-block-value">## Difficulty (on a scale of 1-5 with 5 being very tough)<br>4</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">📖 Textbooks / References</span>
+  <div class="review-block-value">Optimization by Liberzon</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💻 Software Used</span>
+  <div class="review-block-value">## Final Takeaway<br>The course is a good exposure of static and dynamic optimizations and having a methodical incremental learning from Pontragyn maximus principals to dynamic programming and finally LQR problem. This course along with optimization course from syscon gives in depth understanding of optimization.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🏁 Final Takeaway</span>
+  <div class="review-block-value">The course is a good exposure of static and dynamic optimizations and having a methodical incremental learning from Pontragyn maximus principals to dynamic programming and finally LQR problem. This course along with optimization course from syscon gives in depth understanding of optimization.</div>
+</div>
 
-## Course Name
-Optimal control
-
-## Instructor
-Prof dwipayan mukherji
-
-## Year
-2025
-
-## Semester
-Autumn Semester (Aug - Dec)
-
-## Prerequisites
-Linear algebra, calulus
-
-## Grading Criteria (what was marks distribution for exams/assignments/etc..)
-Relative 
-
-## Course Content
-Langeangian and hamiltonoa mechanics, Static and dynamic optimization, LQR method, pontraygin maximum principle and linear pogramming
-
-## Feedback on Lectures
-Lectures are in depth analysis of optimization with rigorous proof and very much involved but at same time very much interesting. 
-
-## Feedback on Assignments/Tutorials/Homework
-Mostly numerical length and involved
-
-## Feedback on Exams
-
-
-## Difficulty (on a scale of 1-5 with 5 being very tough)
-4
-
-## Textbooks/References
-Optimization by Liberzon
-
-## Software Used (If any)
-
-
-## Final Takeaway
-The course is a good exposure of static and dynamic optimizations and having a methodical incremental learning from Pontragyn maximus principals to dynamic programming and finally LQR problem. This course along with optimization course from syscon gives in depth understanding of optimization.
-
+</div>

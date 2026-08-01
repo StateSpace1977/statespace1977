@@ -8,66 +8,85 @@ tags:
 render_with_liquid: false
 author: Vinayak Bhardwaj
 ---
-## Timestamp
-02/03/2026 09:52:04
 
-## Email address
-vinayak.bhardwaj7102000@gmail.com
+<div class="review-card">
 
-## Student's Name
-vinayak bhardwaj
+<div class="review-header">
+  <div class="review-header-info">
+    <span class="review-company-name">Eaton</span>
+    <span class="review-meta">Robotics · Industrial Automation</span>
+  </div>
+  <div>
+    <span class="review-verdict-badge badge-selected">Selected</span>
+  </div>
+</div>
 
-## Student's Roll Number
-24m2007
+<div class="review-grid">
+<div class="review-field">
+  <span class="review-label">👤 Student</span>
+  <span class="review-value">vinayak bhardwaj</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🆔 Roll No.</span>
+  <span class="review-value">24m2007</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📅 Placement Year</span>
+  <span class="review-value">2025</span>
+</div>
+<div class="review-field">
+  <span class="review-label">📆 Season</span>
+  <span class="review-value">Phase 1</span>
+</div>
+<div class="review-field">
+  <span class="review-label">💼 Position</span>
+  <span class="review-value">Industrial Automation</span>
+</div>
+<div class="review-field">
+  <span class="review-label">💰 Compensation</span>
+  <span class="review-value">## Job Description
+I have to work on setting up a robot manipulator–based workstation.</span>
+</div>
+</div>
 
-## Placement Year
-2025
+<div class="review-field-block">
+  <span class="review-label">📋 Job Description</span>
+  <div class="review-block-value">I have to work on setting up a robot manipulator–based workstation.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">🖥️ Online Test / Screening</span>
+  <div class="review-block-value">Resume Based shortlisting</div>
+</div>
+<div class="review-field">
+  <span class="review-label">✅ Selected for Interview?</span>
+  <span class="review-value">Yes</span>
+</div>
+<div class="review-field">
+  <span class="review-label">🔄 Total Interview Rounds</span>
+  <span class="review-value">two</span>
+</div>
 
-## Placement season
-Phase 1
+<div class="review-rounds-section"><h3 class="review-section-title">📝 Interview Rounds</h3><div class="review-round">
+  <span class="review-round-badge">Round 1</span>
+  <div class="review-round-content">Techanical</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 2</span>
+  <div class="review-round-content">HR</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 3</span>
+  <div class="review-round-content">nill</div>
+</div><div class="review-round">
+  <span class="review-round-badge">Round 4</span>
+  <div class="review-round-content">nill</div>
+</div></div>
 
-## Company Name
-Eaton
+<div class="review-field-block">
+  <span class="review-label">🎯 Preparation Strategy</span>
+  <div class="review-block-value">Should have knowledge of robotic manipulators, including forward kinematics (FK) and inverse kinematics (IK), and some experience working with hardware or simulated robotic arms.</div>
+</div>
+<div class="review-field-block">
+  <span class="review-label">💡 Suggestions & Tips</span>
+  <div class="review-block-value">Completed the ME604 Robotics course under the guidance of Abhishek Gupta, Sir.</div>
+</div>
 
-## Domain
-Robotics
-
-## Position/Job Titlle
-Industrial Automation
-
-## Compensation Details
-
-
-## Job Description
-I have to work on setting up a robot manipulator–based workstation.
-
-## Online Test/ Screening Details
-Resume Based shortlisting
-
-## Selected for Interview?
-Yes
-
-## Total Interview Rounds
-two
-
-## Round 1
-Techanical
-
-## Round 2
-HR
-
-## Round 3
-nill
-
-## Round 4
-nill
-
-## Final Verdict
-Selected
-
-## Any preparation strategy
-Should have knowledge of robotic manipulators, including forward kinematics (FK) and inverse kinematics (IK), and some experience working with hardware or simulated robotic arms.
-
-## Suggestions/Tips
-Completed the ME604 Robotics course under the guidance of Abhishek Gupta, Sir.
-
+</div>
