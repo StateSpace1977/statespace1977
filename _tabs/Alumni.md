@@ -181,9 +181,6 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2024" class="tab-pane">
-  </div>
-
-  <div id="batch-2024" class="tab-pane">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
     <img src="/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" style="width: 100%; height: auto; display: block; border-radius: 4px;">
@@ -206,7 +203,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
@@ -230,7 +226,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Arjun Sadananda</span>
@@ -280,7 +275,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
@@ -304,7 +298,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Chetan Teli</span>
@@ -354,7 +347,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
@@ -378,7 +370,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Maitreyee Dutta</span>
@@ -467,7 +458,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
@@ -491,7 +481,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
@@ -515,7 +504,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Ramavath Sai Dinesh</span>
@@ -552,7 +540,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
 
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Sambeda Sarkar</span>
@@ -654,10 +641,6 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
-</div>
-  </div>
-
-  <div id="batch-2023" class="tab-pane">
   </div>
 
   <div id="batch-2023" class="tab-pane">
@@ -754,9 +737,6 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2022" class="tab-pane">
-  </div>
-
-  <div id="batch-2022" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Anuj Sanjay Vora</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -769,9 +749,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2022</span>
     </div>
 </div>
-  </div>
-
-  <div id="batch-2021" class="tab-pane">
   </div>
 
   <div id="batch-2021" class="tab-pane">
@@ -816,9 +793,6 @@ function selectAlumniTab(targetId) {
   </div>
 
   <div id="batch-2020" class="tab-pane">
-  </div>
-
-  <div id="batch-2020" class="tab-pane">
 <div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Saurabh Dhamne</span>
     <div style="font-size: 0.9em; line-height: 1.5;">
@@ -831,9 +805,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2020</span>
     </div>
 </div>
-  </div>
-
-  <div id="batch-2019" class="tab-pane">
   </div>
 
   <div id="batch-2019" class="tab-pane">
@@ -862,10 +833,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2019</span>
     </div>
 </div>
-  </div>
-
-  <div id="older-batches" class="tab-pane">
-<h3>Batch 2018</h3>
   </div>
 
   <div id="batch-2018" class="tab-pane">
@@ -907,8 +874,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2018</span>
     </div>
 </div>
-
-<h3>Batch 2017</h3>
   </div>
 
   <div id="batch-2017" class="tab-pane">
@@ -924,8 +889,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2017</span>
     </div>
 </div>
-
-<h3>Batch 2016</h3>
   </div>
 
   <div id="batch-2016" class="tab-pane">
@@ -941,8 +904,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2016</span>
     </div>
 </div>
-
-<h3>Batch 2014</h3>
   </div>
 
   <div id="batch-2014" class="tab-pane">
@@ -971,8 +932,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2014</span>
     </div>
 </div>
-
-<h3>Batch 2005</h3>
   </div>
 
   <div id="batch-2005" class="tab-pane">
@@ -988,8 +947,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 2005</span>
     </div>
 </div>
-
-<h3>Batch 1999</h3>
   </div>
 
   <div id="batch-1999" class="tab-pane">
@@ -1005,8 +962,6 @@ function selectAlumniTab(targetId) {
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch 1999</span>
     </div>
 </div>
-
-<h3>Other Alumni</h3>
   </div>
 
   <div id="batch-n/a" class="tab-pane">
@@ -1030,13 +985,6 @@ function selectAlumniTab(targetId) {
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> N/A <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Research and Innovation Park, IIT Delhi (Principal Scientist)
     </div>
-</div>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center;">
-      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Batch N/A</span>
-    </div>
-</div>
-  </div>
 </div>
   </div>
 </div>
