@@ -36,7 +36,7 @@ function selectAlumniTab(targetId) {
   <div class="year-filter-bar">
     <label class="year-filter-label" for="alumni-year-select">Select Year / Batch:</label>
     <select id="alumni-year-select" class="year-select-dropdown" onchange="selectAlumniTab(this.value)">
-      <option value="batch-2026">2026 Graduates (11)</option>
+      <option value="batch-2026">2026 Graduates (14)</option>
       <option value="batch-2025">2025 Graduates (9)</option>
       <option value="batch-2024">2024 Graduates (16)</option>
       <option value="batch-2023">2023 Graduates (7)</option>
@@ -51,7 +51,7 @@ function selectAlumniTab(targetId) {
       <option value="batch-2005">2005 Graduates (1)</option>
       <option value="batch-1999">1999 Graduates (1)</option>
       <option value="batch-n/a">Other Graduates (2)</option>
-      <option value="all">All Alumni (61)</option>
+      <option value="all">All Alumni (64)</option>
     </select>
 
     <div class="quick-year-pills">
@@ -96,7 +96,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Amway<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Srikant Sukumar <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Trajectory mapping on Moon terrain <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Arts & Craft, writing
@@ -120,7 +120,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Inspecity Space Labs<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Sukumar Srikant <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Quadcopter Orientation Control (3-DOF) <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
@@ -144,7 +144,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> LTI Mindtree<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
@@ -192,7 +192,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Gruve <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Inspecity Space Labs<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Leena Vachhani <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> RL for UAV based localization application <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> nan
@@ -240,7 +240,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> N/A <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> LTI Mindtree<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Sukumar shrikant <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Lunar navigation system <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Solving DSA , Singing and playing Cricket
@@ -264,7 +264,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Visa <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Bombay Stock Exchange<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Prof. Leena Vachhani <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Quantum computing and its applications in robotics <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Running, Swimming, Exploring Art and Food
@@ -288,7 +288,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Kas Global <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Kas Global Commerce Inc.<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Sukumar srikant sir <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Relative position and orientation of spacecraft in space using cnn <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Playing cricket, listening to music and traveling
@@ -312,7 +312,7 @@ function selectAlumniTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026<br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Eaton <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Eaton<br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Advisor:</span> Arpita sinha <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> Human–Robot Collaboration Framework for Object Transportation <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Tinkering, learning new things, gaming, and anime
@@ -325,6 +325,42 @@ function selectAlumniTab(targetId) {
       </a>
     </div>
   </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Akhilesh Deshmukh</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Bombay Stock Exchange
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">2026 Graduates</span>
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">G Bhargava Reddy</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Wipro
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">2026 Graduates</span>
+    </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-direction: column; padding: 20px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color); margin-bottom: 12px;">Narayana S S</span>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Degree:</span> MTech <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Batch:</span> 2026 <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Organisation:</span> Marsh McLennan
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">2026 Graduates</span>
+    </div>
 </div>
   </div>
 
