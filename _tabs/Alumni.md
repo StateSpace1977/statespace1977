@@ -5,6 +5,29 @@ order: 4
 ---
 
 <script>
+(function() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      var unregistered = false;
+      for (var i = 0; i < registrations.length; i++) {
+        registrations[i].unregister();
+        unregistered = true;
+      }
+      if (unregistered && !sessionStorage.getItem('sw_auto_reloaded')) {
+        sessionStorage.setItem('sw_auto_reloaded', 'true');
+        window.location.reload(true);
+      }
+    });
+  }
+  if ('caches' in window) {
+    caches.keys().then(function(names) {
+      for (var i = 0; i < names.length; i++) {
+        caches.delete(names[i]);
+      }
+    });
+  }
+})();
+
 function selectAlumniTab(targetId) {
   const container = document.querySelector(".tabs-wrapper");
   if (!container) return;
