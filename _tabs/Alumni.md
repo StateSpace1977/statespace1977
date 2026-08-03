@@ -6,6 +6,18 @@ order: 4
 
 <script>
 (function() {
+  try {
+    var meta1 = document.createElement('meta');
+    meta1.httpEquiv = 'Cache-Control';
+    meta1.content = 'no-cache, no-store, must-revalidate';
+    document.head.appendChild(meta1);
+
+    var meta2 = document.createElement('meta');
+    meta2.httpEquiv = 'Pragma';
+    meta2.content = 'no-cache';
+    document.head.appendChild(meta2);
+  } catch(e) {}
+
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(registrations) {
       var unregistered = false;
@@ -13,8 +25,8 @@ order: 4
         registrations[i].unregister();
         unregistered = true;
       }
-      if (unregistered && !sessionStorage.getItem('sw_auto_reloaded')) {
-        sessionStorage.setItem('sw_auto_reloaded', 'true');
+      if (unregistered && !sessionStorage.getItem('sw_purged_v2')) {
+        sessionStorage.setItem('sw_purged_v2', 'true');
         window.location.reload(true);
       }
     });
