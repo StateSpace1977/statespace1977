@@ -100,7 +100,21 @@ layout: default
             <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>{% include post-summary.html %}</p>
+              <p>
+                {% assign subtitle_parts = post.content | split: '<span class="review-company-name">' %}
+                {% if subtitle_parts.size > 1 %}
+                  {% assign extracted_name = subtitle_parts[1] | split: '</span>' | first | strip %}
+                  {% if post.categories contains "CourseReview" %}
+                    {{ extracted_name }} reviewed by {{ post.author | default: "Anonymous" }}
+                  {% elsif post.categories contains "PlacementReview" %}
+                    Reviewed by {{ post.author | default: "Anonymous" }}
+                  {% else %}
+                    {{ extracted_name }} reviewed by {{ post.author | default: "Anonymous" }}
+                  {% endif %}
+                {% else %}
+                  {% include post-summary.html %}
+                {% endif %}
+              </p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
