@@ -35,22 +35,386 @@ function selectStudentTab(targetId) {
 <div class="tabs-wrapper">
   <div class="year-filter-bar">
     <label class="year-filter-label" for="student-intake-select">Select Program / Intake:</label>
-    <select id="student-intake-select" class="year-select-dropdown" onchange="selectStudentTab(this.value)">
+        <select id="student-intake-select" class="year-select-dropdown" onchange="selectStudentTab(this.value)">
+      <option value="mtech-2026">2026 Intake (18)</option>
       <option value="mtech-2025">2025 Intake (25)</option>
       <option value="mtech-2024">2024 Intake (4)</option>
       <option value="idddp">IDDDP (3)</option>
-      <option value="all">All Students (32)</option>
+      <option value="all">All Students (50)</option>
     </select>
 
-    <div class="quick-year-pills">
-      <button class="quick-pill active" data-target="mtech-2025" onclick="selectStudentTab('mtech-2025')">2025 Intake</button>
+        <div class="quick-year-pills">
+      <button class="quick-pill active" data-target="mtech-2026" onclick="selectStudentTab('mtech-2026')">2026 Intake</button>
+      <button class="quick-pill" data-target="mtech-2025" onclick="selectStudentTab('mtech-2025')">2025 Intake</button>
       <button class="quick-pill" data-target="mtech-2024" onclick="selectStudentTab('mtech-2024')">2024 Intake</button>
       <button class="quick-pill" data-target="idddp" onclick="selectStudentTab('idddp')">IDDDP</button>
       <button class="quick-pill" data-target="all" onclick="selectStudentTab('all')">All</button>
     </div>
   </div>
 
-  <div id="mtech-2025" class="tab-pane active">
+    <div id="mtech-2026" class="tab-pane active">
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Shri Keshavinee Ramachandran.jpg" alt="Shri Keshavinee Ramachandran" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shri Keshavinee Ramachandran</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Basketball, Swimming
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Robotics</span>
+      <a href="mailto:26M2019@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Adithya Sriraman.jpg" alt="Adithya Sriraman" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Adithya Sriraman</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> RTL Design and Verification, Embedded Software, SoC, ASIC Design, Python SystemVerilog/Verilog, C++/C.
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: System and Control, Electronics oriented</span>
+      <a href="mailto:adithyasriraman12@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Kingshuk Pal.jpg" alt="Kingshuk Pal" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Kingshuk Pal</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Exploring Latest Technology, Playing Video Games, Watching Football
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AI/ML</span>
+      <a href="mailto:26M2005@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Karan prasad Ahirwar.jpg" alt="Karan prasad Ahirwar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Karan prasad Ahirwar</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> To learn about Hardware design ,FPGA programming, and excited to
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Embedded system and VLSI Design</span>
+      <a href="mailto:26m2022@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Sagar Kumar Wadhwani.jpg" alt="Sagar Kumar Wadhwani" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Sagar Kumar Wadhwani</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> AI ML
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AI ML</span>
+      <a href="mailto:26m2004@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Rahul Singh.jpg" alt="Rahul Singh" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rahul Singh</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Electrical vehicle, Mechatronics
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control Systems, Automation, Robotics</span>
+      <a href="mailto:rahul.singh.31910@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Hardik Jain.jpg" alt="Hardik Jain" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Hardik Jain</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Robotics, Artificial Intelligence, Control
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Mechanical Engineering</span>
+      <a href="mailto:26M2026@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Shahan Malik.jpg" alt="Shahan Malik" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Shahan Malik</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Gym,football,movies
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Intelligent autonomous system</span>
+      <a href="mailto:shahanmalikc@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Sandip Biswas.jpg" alt="Sandip Biswas" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Sandip Biswas</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Modern Control System
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: System and Control</span>
+      <a href="mailto:sandipbiswas101197@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Mahendra.jpg" alt="Mahendra" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Mahendra</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Control system
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Electronic</span>
+      <a href="mailto:mahendranegi123456@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Anurag Pandey.jpg" alt="Anurag Pandey" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Anurag Pandey</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> ML, robotics, automation
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: ML, Control & Automation</span>
+      <a href="mailto:26M2011@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Aryan Patel.jpg" alt="Aryan Patel" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Aryan Patel</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> AI/ML , People , Exploring ,Good Vibes
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AiML</span>
+      <a href="mailto:26M2007@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Santhosh Krishna.jpg" alt="Santhosh Krishna" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Santhosh Krishna</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Trekking, Paragliding, Adventure Sports, Badminton, Legos, Motorsport
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Gas Turbines & Naval Control Systems</span>
+      <a href="mailto:mskrishna.1996@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Rishita Parashar.jpg" alt="Rishita Parashar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rishita Parashar</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> coding , problem solving
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AI ML</span>
+      <a href="mailto:26M2009@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Kiran Gullapalli.jpg" alt="Kiran Gullapalli" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Kiran Gullapalli</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Control Systems, AI/ML
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AI/ML</span>
+      <a href="mailto:26M2006@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Tanishq Sahu.jpg" alt="Tanishq Sahu" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Tanishq Sahu</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Playing badminton, chess, beatboxing
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: ML, VLSI</span>
+      <a href="mailto:sahutanishq14@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Amitvikram Sanjeev Pujar.jpg" alt="Amitvikram Sanjeev Pujar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Amitvikram Sanjeev Pujar</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Yoga, Watching Podcast
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Deep Learning</span>
+      <a href="mailto:26M2020@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/assets/students/26/Lakshay Wadhwani.jpg" alt="Lakshay Wadhwani" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Lakshay Wadhwani</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Sports, Video Games, Shows & Movies
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: AI & Robotics</span>
+      <a href="mailto:26M2021@iitb.ac.in" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div id="mtech-2025" class="tab-pane">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
     <img src="/assets/students/25/Adarsh Korde.jpg" alt="Adarsh Korde" style="width: 100%; height: auto; display: block; border-radius: 4px;">
