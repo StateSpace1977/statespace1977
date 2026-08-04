@@ -455,7 +455,7 @@ layout: home
   <div class="ss-home-cta-row">
     <a href="/statespace1977/categories/coursereview/" class="ss-home-btn ss-home-btn-primary">📚 Course Reviews</a>
     <a href="/statespace1977/categories/placementreview/" class="ss-home-btn ss-home-btn-ghost">💼 Placement Stories</a>
-    <a href="/statespace1977/current-students/" class="ss-home-btn ss-home-btn-ghost">🎓 Students</a>
+    <a href="/statespace1977/Current-Students/" class="ss-home-btn ss-home-btn-ghost">🎓 Students</a>
   </div>
 </div>
 
@@ -600,6 +600,26 @@ layout: home
   animation: none !important;
   -webkit-animation: none !important;
   display: block;
+}
+
+/* Kill JS-injected shimmer wrappers */
+.ss-home-creators-section .shimmer,
+.ss-creator-modal-overlay .shimmer,
+.ss-home-creators-section [class*="shimmer"],
+.ss-creator-modal-overlay [class*="shimmer"],
+.ss-home-creator-card a.img-link,
+.ss-creator-modal-overlay a.img-link {
+  background: transparent !important;
+  background-image: none !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+.ss-home-creator-card a.img-link::before,
+.ss-home-creator-card a.img-link::after,
+.ss-creator-modal-overlay a.img-link::before,
+.ss-creator-modal-overlay a.img-link::after {
+  display: none !important;
+  animation: none !important;
 }
 
 .ss-home-creator-name {
