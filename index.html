@@ -585,7 +585,9 @@ layout: home
   box-shadow: 0 10px 24px rgba(2,132,199,0.12);
 }
 
-.ss-home-creator-photo {
+.ss-home-creator-photo,
+.ss-home-creator-photo::before,
+.ss-home-creator-photo::after {
   width: 88px;
   height: 88px;
   border-radius: 50%;
@@ -593,9 +595,11 @@ layout: home
   object-position: top;
   border: 3px solid #bae6fd;
   box-shadow: 0 0 0 3px rgba(2,132,199,0.1);
-  background: none !important;
+  background: transparent !important;
   background-image: none !important;
   animation: none !important;
+  -webkit-animation: none !important;
+  display: block;
 }
 
 .ss-home-creator-name {
@@ -653,15 +657,23 @@ layout: home
 }
 .ss-creator-modal-close {
   position: absolute;
-  top: 15px; right: 20px;
+  top: 10px; right: 15px;
   font-size: 2rem;
   color: var(--text-muted-color, #64748b);
   cursor: pointer;
   background: none;
   border: none;
   line-height: 1;
+  outline: none;
+  z-index: 10;
+  transition: color 0.2s;
 }
-.ss-creator-modal-photo {
+.ss-creator-modal-close:hover {
+  color: #e11d48;
+}
+.ss-creator-modal-photo,
+.ss-creator-modal-photo::before,
+.ss-creator-modal-photo::after {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -670,9 +682,11 @@ layout: home
   border: 4px solid #bae6fd;
   margin-bottom: 1.2rem;
   box-shadow: 0 0 0 4px rgba(2,132,199,0.1);
-  background: none !important;
+  background: transparent !important;
   background-image: none !important;
   animation: none !important;
+  -webkit-animation: none !important;
+  display: inline-block;
 }
 .ss-creator-modal-name {
   font-size: 1.4rem;
@@ -710,6 +724,7 @@ layout: home
         alt="Prashik Patil"
         class="ss-home-creator-photo"
         onerror="this.onerror=null; this.src='/statespace1977/assets/avatar/avatar.png';"
+        style="background: transparent !important; animation: none !important;"
       >
       <div class="ss-home-creator-name">Prashik Patil</div>
       <span class="ss-home-creator-role">Founder &amp; Lead Developer</span>
@@ -722,6 +737,7 @@ layout: home
         alt="Mihir Kalal"
         class="ss-home-creator-photo"
         onerror="this.onerror=null; this.src='/statespace1977/assets/avatar/avatar.png';"
+        style="background: transparent !important; animation: none !important;"
       >
       <div class="ss-home-creator-name">Mihir Kalal</div>
       <span class="ss-home-creator-role">Lead Developer</span>
@@ -745,7 +761,7 @@ layout: home
 <div class="ss-creator-modal-overlay" id="creatorModalOverlay" onclick="closeCreatorModal(event)">
   <div class="ss-creator-modal">
     <button class="ss-creator-modal-close" onclick="closeCreatorModal(event, true)">&times;</button>
-    <img src="" alt="" class="ss-creator-modal-photo" id="creatorModalPhoto">
+    <img src="" alt="" class="ss-creator-modal-photo" id="creatorModalPhoto" style="background: transparent !important; animation: none !important;">
     <h3 class="ss-creator-modal-name" id="creatorModalName"></h3>
     <span class="ss-creator-modal-role" id="creatorModalRole"></span>
     <p class="ss-creator-modal-bio" id="creatorModalBio"></p>
