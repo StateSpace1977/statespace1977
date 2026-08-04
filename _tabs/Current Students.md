@@ -62,7 +62,7 @@ function selectStudentTab(targetId) {
     <div style="font-size: 0.9em; line-height: 1.4;">
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
       <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
-      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Control Systems
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Squash, Swimming, Basketball
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
       <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control and System</span>
