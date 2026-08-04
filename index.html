@@ -554,6 +554,108 @@ layout: home
 </div>
 
 <!-- ══════════════════════════════════════════════
+     CREATORS SECTION
+     ══════════════════════════════════════════════ -->
+<style>
+.ss-home-creators-section {
+  margin-bottom: 2.5rem;
+}
+
+.ss-home-creators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+
+.ss-home-creator-card {
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--card-border-color, #e2e8f0);
+  border-radius: 16px;
+  padding: 1.5rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ss-home-creator-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(2,132,199,0.12);
+}
+
+.ss-home-creator-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid #bae6fd;
+  box-shadow: 0 0 0 3px rgba(2,132,199,0.1);
+}
+
+.ss-home-creator-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--heading-color, #0369a1);
+  margin: 0;
+}
+
+.ss-home-creator-role {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+
+.ss-home-creator-bio {
+  font-size: 0.83rem;
+  color: var(--text-muted-color, #64748b);
+  line-height: 1.55;
+  margin: 0;
+  font-style: italic;
+}
+</style>
+
+<div class="ss-home-creators-section">
+  <div class="ss-home-spotlight-title">🛠️ Built by Students, for Students</div>
+
+  <div class="ss-home-creators-grid">
+
+    <div class="ss-home-creator-card">
+      <img
+        src="/assets/students/24/Prashik Patil.jpg"
+        alt="Prashik Patil"
+        class="ss-home-creator-photo"
+        onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';"
+      >
+      <div class="ss-home-creator-name">Prashik Patil</div>
+      <span class="ss-home-creator-role">Founder &amp; Lead Developer</span>
+      <p class="ss-home-creator-bio">"Pioneered the StateSpace initiative for the SysCon department."</p>
+    </div>
+
+    <div class="ss-home-creator-card">
+      <img
+        src="/assets/students/25/Mihir Kalal.jpg"
+        alt="Mihir Kalal"
+        class="ss-home-creator-photo"
+        onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';"
+      >
+      <div class="ss-home-creator-name">Mihir Kalal</div>
+      <span class="ss-home-creator-role">Lead Developer</span>
+      <p class="ss-home-creator-bio">"Enhanced and automated the StateSpace platform for present and future batches."</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
      DIVIDER — BLOG FEED BEGINS BELOW
      ══════════════════════════════════════════════ -->
 <div class="ss-home-feed-divider">
