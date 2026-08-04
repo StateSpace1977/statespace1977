@@ -36,7 +36,7 @@ function selectStudentTab(targetId) {
   <div class="year-filter-bar">
     <label class="year-filter-label" for="student-intake-select">Select Program / Intake:</label>
         <select id="student-intake-select" class="year-select-dropdown" onchange="selectStudentTab(this.value)">
-      <option value="mtech-2026">2026 Intake (18)</option>
+      <option value="mtech-2026">2026 Intake (19)</option>
       <option value="mtech-2025">2025 Intake (25)</option>
       <option value="mtech-2024">2024 Intake (4)</option>
       <option value="idddp">IDDDP (3)</option>
@@ -53,6 +53,25 @@ function selectStudentTab(targetId) {
   </div>
 
     <div id="mtech-2026" class="tab-pane active">
+<div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+  <div style="flex: 0 0 120px; width: 120px;">
+    <img src="/statespace1977/assets/students/26/Vikas%20Aggarwal.jpeg" alt="Vikas Aggarwal" onerror="this.onerror=null; this.src='/statespace1977/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+  </div>
+  <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
+    <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vikas Aggarwal</span>
+    <div style="font-size: 0.9em; line-height: 1.4;">
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Guide:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Thesis:</span> nan <br>
+      <span style="color: var(--text-muted-color, #888); font-weight: 500;">Interests:</span> Control Systems
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; align-items: center;">
+      <span style="background-color: var(--tag-bg, rgba(52, 152, 219, 0.12)); color: var(--link-color, #3498db); padding: 3px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600;">Domain: Control and System</span>
+      <a href="mailto:vikas.aggarwal90@gmail.com" style="margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: var(--link-color, #007bff); color: var(--card-bg, #fff) !important; border-radius: 20px; text-decoration: none; font-size: 0.8em; font-weight: 600;">
+        <span>✉</span> Email
+      </a>
+    </div>
+  </div>
+</div>
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
     <img src="/assets/students/26/Mahendra.jpg" alt="Mahendra" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
