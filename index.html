@@ -621,6 +621,77 @@ layout: home
   margin: 0;
   font-style: italic;
 }
+
+/* Modal CSS */
+.ss-creator-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  padding: 20px;
+}
+.ss-creator-modal {
+  background: var(--card-bg, #ffffff);
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  animation: modalScale 0.3s ease-out;
+}
+@keyframes modalScale {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.ss-creator-modal-close {
+  position: absolute;
+  top: 15px; right: 20px;
+  font-size: 2rem;
+  color: var(--text-muted-color, #64748b);
+  cursor: pointer;
+  background: none;
+  border: none;
+  line-height: 1;
+}
+.ss-creator-modal-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 4px solid #bae6fd;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 0 0 4px rgba(2,132,199,0.1);
+}
+.ss-creator-modal-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--heading-color, #0369a1);
+  margin: 0 0 0.5rem 0;
+}
+.ss-creator-modal-role {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+.ss-creator-modal-bio {
+  font-size: 1rem;
+  color: var(--text-color, #334155);
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
 </style>
 
 <div class="ss-home-creators-section">
@@ -628,7 +699,7 @@ layout: home
 
   <div class="ss-home-creators-grid">
 
-    <div class="ss-home-creator-card">
+    <div class="ss-home-creator-card" onclick="openCreatorModal(this)" style="cursor: pointer;">
       <img
         src="/statespace1977/assets/students/24/Prashik Patil.jpg"
         alt="Prashik Patil"
@@ -640,7 +711,7 @@ layout: home
       <p class="ss-home-creator-bio">"Pioneered the StateSpace initiative for the SysCon department."</p>
     </div>
 
-    <div class="ss-home-creator-card">
+    <div class="ss-home-creator-card" onclick="openCreatorModal(this)" style="cursor: pointer;">
       <img
         src="/statespace1977/assets/students/25/Mihir Kalal.jpg"
         alt="Mihir Kalal"
@@ -662,3 +733,38 @@ layout: home
   <span class="ss-home-feed-divider-label">📰 All Posts</span>
   <div class="ss-home-feed-divider-line"></div>
 </div>
+
+<!-- ══════════════════════════════════════════════
+     MODAL STRUCTURE & SCRIPT
+     ══════════════════════════════════════════════ -->
+<div class="ss-creator-modal-overlay" id="creatorModalOverlay" onclick="closeCreatorModal(event)">
+  <div class="ss-creator-modal">
+    <button class="ss-creator-modal-close" onclick="closeCreatorModal(event, true)">&times;</button>
+    <img src="" alt="" class="ss-creator-modal-photo" id="creatorModalPhoto">
+    <h3 class="ss-creator-modal-name" id="creatorModalName"></h3>
+    <span class="ss-creator-modal-role" id="creatorModalRole"></span>
+    <p class="ss-creator-modal-bio" id="creatorModalBio"></p>
+  </div>
+</div>
+
+<script>
+function openCreatorModal(card) {
+  const photo = card.querySelector('.ss-home-creator-photo').src;
+  const name = card.querySelector('.ss-home-creator-name').innerText;
+  const role = card.querySelector('.ss-home-creator-role').innerText;
+  const bio = card.querySelector('.ss-home-creator-bio').innerText;
+
+  document.getElementById('creatorModalPhoto').src = photo;
+  document.getElementById('creatorModalName').innerText = name;
+  document.getElementById('creatorModalRole').innerText = role;
+  document.getElementById('creatorModalBio').innerText = bio;
+
+  document.getElementById('creatorModalOverlay').style.display = 'flex';
+}
+
+function closeCreatorModal(event, force = false) {
+  if (force || event.target.id === 'creatorModalOverlay') {
+    document.getElementById('creatorModalOverlay').style.display = 'none';
+  }
+}
+</script>
