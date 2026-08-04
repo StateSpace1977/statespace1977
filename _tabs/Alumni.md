@@ -100,7 +100,7 @@ function selectAlumniTab(targetId) {
   <div id="batch-2026" class="tab-pane active">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Anuj Yadav.jpg" alt="Anuj Yadav" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Anuj Yadav</span>
@@ -124,7 +124,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Anupam.jpg" alt="Anupam" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Anupam.jpg" alt="Anupam" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Anupam</span>
@@ -148,7 +148,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Chanakya vihar Challa.jpg" alt="Chanakya vihar Challa" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Chanakya vihar Challa.jpg" alt="Chanakya vihar Challa" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Chanakya vihar Challa</span>
@@ -172,7 +172,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Chandra Vikas.jpg" alt="Chandra Vikas" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Chandra Vikas.jpg" alt="Chandra Vikas" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Chandra Vikas</span>
@@ -196,7 +196,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Jatinkumar.jpg" alt="Jatinkumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Jatinkumar.jpg" alt="Jatinkumar" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Jatinkumar</span>
@@ -220,7 +220,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Kadapalla Nithin Kumar.jpg" alt="Kadapalla Nithin Kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Kadapalla Nithin Kumar.jpg" alt="Kadapalla Nithin Kumar" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Kadapalla Nithin Kumar</span>
@@ -244,7 +244,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Paras Pandey.jpg" alt="Paras Pandey" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Paras Pandey.jpg" alt="Paras Pandey" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Paras Pandey</span>
@@ -268,7 +268,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Prabhat Patel.jpg" alt="Prabhat Patel" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Prabhat Patel.jpg" alt="Prabhat Patel" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Prabhat Patel</span>
@@ -292,7 +292,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Prashik Patil.jpg" alt="Prashik Patil" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Prashik Patil.jpg" alt="Prashik Patil" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Prashik Patil</span>
@@ -316,7 +316,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/Rohit kumar.jpg" alt="Rohit kumar" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/Rohit kumar.jpg" alt="Rohit kumar" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Rohit kumar</span>
@@ -340,7 +340,7 @@ function selectAlumniTab(targetId) {
 
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/assets/students/24/vinayak bhardwaj.jpg" alt="vinayak bhardwaj" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/24/vinayak bhardwaj.jpg" alt="vinayak bhardwaj" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">vinayak bhardwaj</span>
