@@ -55,7 +55,7 @@ function selectStudentTab(targetId) {
     <div id="mtech-2026" class="tab-pane active">
 <div class="student-card" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; border: 1px solid var(--card-border-color, rgba(0,0,0,0.08)); border-radius: 12px; background: var(--card-bg, rgba(255,255,255,0.02)); box-shadow: 0 2px 8px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
   <div style="flex: 0 0 120px; width: 120px;">
-    <img src="/statespace1977/assets/students/26/Vikas%20Aggarwal.jpeg" alt="Vikas Aggarwal" onerror="this.onerror=null; this.src='/statespace1977/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    <img src="/assets/students/26/Vikas Aggarwal.jpeg" alt="Vikas Aggarwal" onerror="this.onerror=null; this.src='/assets/avatar/avatar.png';" style="width: 100%; height: auto; display: block; border-radius: 4px;">
   </div>
   <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 6px;">
     <span style="font-size: 1.25em; font-weight: 700; color: var(--heading-color);">Vikas Aggarwal</span>
