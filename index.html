@@ -22,3 +22,541 @@ layout: home
     });
   }
 </script>
+
+<style>
+/* ============================================================
+   StateSpace Homepage Sections — All styles scoped to .ss-home-*
+   These styles ONLY apply to elements inside this page.
+   They will NOT affect any other page on the site.
+   ============================================================ */
+
+/* ── Hero Section ── */
+.ss-home-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 3rem 2.5rem 2.5rem;
+  background: linear-gradient(135deg, #0369a1 0%, #0284c7 40%, #38bdf8 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.ss-home-hero::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 220px; height: 220px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+}
+
+.ss-home-hero::after {
+  content: '';
+  position: absolute;
+  bottom: -40px; left: -40px;
+  width: 160px; height: 160px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 50%;
+}
+
+.ss-home-hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 999px;
+  padding: 4px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #e0f2fe;
+}
+
+.ss-home-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+  color: #ffffff !important;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+
+.ss-home-hero p {
+  font-size: 1.05rem;
+  color: #e0f2fe;
+  margin: 0 auto 1.75rem;
+  max-width: 520px;
+  line-height: 1.65;
+}
+
+.ss-home-cta-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ss-home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.ss-home-btn:hover {
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.ss-home-btn-primary {
+  background: #ffffff;
+  color: #0369a1 !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+.ss-home-btn-primary:hover {
+  background: #f0f9ff;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.22);
+}
+
+.ss-home-btn-ghost {
+  background: rgba(255,255,255,0.18);
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.4);
+  backdrop-filter: blur(4px);
+}
+
+.ss-home-btn-ghost:hover {
+  background: rgba(255,255,255,0.28);
+}
+
+/* ── Stats Strip ── */
+.ss-home-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ss-home-stat-card {
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--card-border-color, #e2e8f0);
+  border-radius: 14px;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.ss-home-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(3,105,161,0.12);
+}
+
+.ss-home-stat-emoji {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.ss-home-stat-number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0284c7;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.ss-home-stat-label {
+  font-size: 0.78rem;
+  color: var(--text-muted-color, #64748b);
+  font-weight: 500;
+}
+
+/* ── Quick Links ── */
+.ss-home-quicklinks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.ss-home-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  background: var(--card-bg, #ffffff);
+  border: 1.5px solid #bae6fd;
+  color: #0284c7 !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.ss-home-pill:hover {
+  background: #0284c7;
+  color: #ffffff !important;
+  border-color: #0284c7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(2,132,199,0.25);
+  text-decoration: none !important;
+}
+
+/* ── Spotlight Section ── */
+.ss-home-spotlight-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--heading-color, #0369a1);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ss-home-spotlight-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, #bae6fd, transparent);
+  margin-left: 8px;
+}
+
+/* Featured Placement Card */
+.ss-home-featured {
+  background: var(--card-bg, #ffffff);
+  border: 1.5px solid #bae6fd;
+  border-left: 4px solid #0284c7;
+  border-radius: 14px;
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.ss-home-featured::before {
+  content: '⭐ Featured';
+  position: absolute;
+  top: 10px; right: 14px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+}
+
+.ss-home-featured:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(2,132,199,0.14);
+  text-decoration: none !important;
+}
+
+.ss-home-featured-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.ss-home-featured-body h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--heading-color, #0369a1);
+  margin: 0 0 4px;
+}
+
+.ss-home-featured-body p {
+  font-size: 0.85rem;
+  color: var(--text-muted-color, #64748b);
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.ss-home-featured-body .ss-home-tag {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
+/* Course Review Grid */
+.ss-home-course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ss-home-course-card {
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--card-border-color, #e2e8f0);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  display: block;
+}
+
+.ss-home-course-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(2,132,199,0.12);
+  border-color: #7dd3fc;
+  text-decoration: none !important;
+}
+
+.ss-home-course-card-code {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+
+.ss-home-course-card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--heading-color, #0369a1);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.ss-home-course-card-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted-color, #64748b);
+}
+
+/* ── CTA Banner ── */
+.ss-home-cta-banner {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1.5px solid #bae6fd;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.ss-home-cta-banner h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0369a1;
+  margin: 0 0 6px;
+}
+
+.ss-home-cta-banner p {
+  font-size: 0.88rem;
+  color: #64748b;
+  margin: 0 0 1.1rem;
+}
+
+.ss-home-cta-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ss-home-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  border: 1.5px solid #0284c7;
+  color: #0284c7 !important;
+  background: #ffffff;
+}
+
+.ss-home-cta-btn:hover {
+  background: #0284c7;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(2,132,199,0.25);
+  text-decoration: none !important;
+}
+
+/* ── Divider before blog feed ── */
+.ss-home-feed-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.ss-home-feed-divider-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--heading-color, #0369a1);
+  white-space: nowrap;
+}
+
+.ss-home-feed-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, #bae6fd, transparent);
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .ss-home-hero {
+    padding: 2rem 1.5rem 2rem;
+  }
+
+  .ss-home-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .ss-home-featured {
+    flex-direction: column;
+  }
+}
+</style>
+
+<!-- ══════════════════════════════════════════════
+     HERO SECTION
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-hero">
+  <span class="ss-home-hero-badge">🎓 SysCon Department · IIT Bombay</span>
+  <h1>StateSpace 🚀</h1>
+  <p>Your one-stop hub for course reviews, placement experiences, and everything SysCon — built by students, for students.</p>
+  <div class="ss-home-cta-row">
+    <a href="/statespace1977/categories/coursereview/" class="ss-home-btn ss-home-btn-primary">📚 Course Reviews</a>
+    <a href="/statespace1977/categories/placementreview/" class="ss-home-btn ss-home-btn-ghost">💼 Placement Stories</a>
+    <a href="/statespace1977/current-students/" class="ss-home-btn ss-home-btn-ghost">🎓 Students</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     STATS STRIP
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-stats">
+  <div class="ss-home-stat-card">
+    <span class="ss-home-stat-emoji">📚</span>
+    <div class="ss-home-stat-number">30+</div>
+    <div class="ss-home-stat-label">Course Reviews</div>
+  </div>
+  <div class="ss-home-stat-card">
+    <span class="ss-home-stat-emoji">💼</span>
+    <div class="ss-home-stat-number">7+</div>
+    <div class="ss-home-stat-label">Placement Stories</div>
+  </div>
+  <div class="ss-home-stat-card">
+    <span class="ss-home-stat-emoji">🏢</span>
+    <div class="ss-home-stat-number">6+</div>
+    <div class="ss-home-stat-label">Companies Covered</div>
+  </div>
+  <div class="ss-home-stat-card">
+    <span class="ss-home-stat-emoji">🧑‍🎓</span>
+    <div class="ss-home-stat-number">50</div>
+    <div class="ss-home-stat-label">Students</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     QUICK LINKS PILLS
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-quicklinks">
+  <a href="/statespace1977/categories/coursereview/" class="ss-home-pill">📚 All Course Reviews</a>
+  <a href="/statespace1977/categories/placementreview/" class="ss-home-pill">💼 Placement Reviews</a>
+  <a href="/statespace1977/current-students/" class="ss-home-pill">🧑‍🎓 Current Students</a>
+  <a href="/statespace1977/about/" class="ss-home-pill">ℹ️ About & Contribute</a>
+  <a href="https://www.instagram.com/loosecontrol1977" target="_blank" class="ss-home-pill">📸 Instagram</a>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SPOTLIGHT — FEATURED PLACEMENT
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-spotlight-title">⭐ Spotlight — Latest Placement Story</div>
+
+<a href="/statespace1977/posts/bombay-stock-exchange-prashik-patil/" class="ss-home-featured">
+  <div class="ss-home-featured-icon">🏦</div>
+  <div class="ss-home-featured-body">
+    <h3>Bombay Stock Exchange (BSE)</h3>
+    <p>Prashik Patil shares his full journey — from online screening to final offer — including tips for cracking BSE's technical rounds.</p>
+    <span class="ss-home-tag">Placement Review</span>
+    <span class="ss-home-tag">Prashik Patil</span>
+    <span class="ss-home-tag">2025-26</span>
+  </div>
+</a>
+
+<!-- ══════════════════════════════════════════════
+     SPOTLIGHT — POPULAR COURSE REVIEWS
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-spotlight-title">🔥 Popular Course Reviews</div>
+
+<div class="ss-home-course-grid">
+  <a href="/statespace1977/posts/sc624-vaibhav-upadhyay/" class="ss-home-course-card">
+    <span class="ss-home-course-card-code">SC624</span>
+    <div class="ss-home-course-card-title">Linear Systems</div>
+    <div class="ss-home-course-card-meta">by Vaibhav Upadhyay</div>
+  </a>
+  <a href="/statespace1977/posts/cs747-nithin-kumar/" class="ss-home-course-card">
+    <span class="ss-home-course-card-code">CS747</span>
+    <div class="ss-home-course-card-title">Foundations of RL</div>
+    <div class="ss-home-course-card-meta">by Nithin Kumar</div>
+  </a>
+  <a href="/statespace1977/posts/sc649-narendra-muley/" class="ss-home-course-card">
+    <span class="ss-home-course-card-code">SC649</span>
+    <div class="ss-home-course-card-title">Nonlinear Systems</div>
+    <div class="ss-home-course-card-meta">by Narendra Muley</div>
+  </a>
+  <a href="/statespace1977/posts/sc655-avik-ghosh/" class="ss-home-course-card">
+    <span class="ss-home-course-card-code">SC655</span>
+    <div class="ss-home-course-card-title">Digital Signal Processing</div>
+    <div class="ss-home-course-card-meta">by Avik Ghosh</div>
+  </a>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     CTA CONTRIBUTION BANNER
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-cta-banner">
+  <h3>✍️ Got something to share?</h3>
+  <p>Help your juniors by contributing a course review or placement experience.</p>
+  <div class="ss-home-cta-btns">
+    <a href="https://forms.gle/yHkm6WhS1uw2XkiA6" target="_blank" class="ss-home-cta-btn">📖 Submit Course Review</a>
+    <a href="https://forms.gle/66wxi8tuPgQZ1uz1A" target="_blank" class="ss-home-cta-btn">💼 Submit Placement Review</a>
+    <a href="https://forms.gle/gsfrJGiWssZx5ncw8" target="_blank" class="ss-home-cta-btn">💡 Submit General Blog</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     DIVIDER — BLOG FEED BEGINS BELOW
+     ══════════════════════════════════════════════ -->
+<div class="ss-home-feed-divider">
+  <span class="ss-home-feed-divider-label">📰 All Posts</span>
+  <div class="ss-home-feed-divider-line"></div>
+</div>
