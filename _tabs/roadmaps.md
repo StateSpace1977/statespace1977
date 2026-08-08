@@ -22,7 +22,7 @@ Before diving into the domain pathways, here is the strict structure you must fo
 
 <div class="roadmap-item">
 <button class="accordion-header" onclick="toggleAccordion(this)">
-    1. Pure Controls & Systems Theory 🤖
+    1. Pure Controls & Systems Theory
     <i class="fas fa-chevron-down"></i>
 </button>
 <div class="accordion-body">
@@ -74,7 +74,7 @@ flowchart TD
 
 <div class="roadmap-item">
 <button class="accordion-header" onclick="toggleAccordion(this)">
-    2. Robotics & Autonomous Systems 🦾
+    2. Robotics & Autonomous Systems
     <i class="fas fa-chevron-down"></i>
 </button>
 <div class="accordion-body">
@@ -125,7 +125,7 @@ flowchart TD
 
 <div class="roadmap-item">
 <button class="accordion-header" onclick="toggleAccordion(this)">
-    3. AI, Machine Learning & Data Science 🧠
+    3. AI, Machine Learning & Data Science
     <i class="fas fa-chevron-down"></i>
 </button>
 <div class="accordion-body">
@@ -178,7 +178,7 @@ flowchart TD
 
 <div class="roadmap-item">
 <button class="accordion-header" onclick="toggleAccordion(this)">
-    4. Software Development Engineering (SDE) 💻
+    4. Software Development Engineering (SDE)
     <i class="fas fa-chevron-down"></i>
 </button>
 <div class="accordion-body">
@@ -229,7 +229,7 @@ flowchart TD
 
 <div class="roadmap-item">
 <button class="accordion-header" onclick="toggleAccordion(this)">
-    5. Quantitative Finance & OR 📈
+    5. Quantitative Finance & OR
     <i class="fas fa-chevron-down"></i>
 </button>
 <div class="accordion-body">
@@ -317,9 +317,9 @@ function toggleAccordion(button) {
     width: 100%;
     text-align: left;
     padding: 1.25rem;
-    background: var(--btn-primary-bg, #007bff);
-    color: #fff;
-    border: none;
+    background: transparent;
+    color: inherit;
+    border: 1px solid var(--card-border-color);
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -328,13 +328,16 @@ function toggleAccordion(button) {
     font-size: 1.1rem;
     font-weight: bold;
     transition: background 0.3s ease, border-radius 0.3s ease;
+    word-break: break-word;
+    gap: 10px;
 }
 .accordion-header:hover {
-    background: var(--btn-primary-border, #0056b3);
+    background: rgba(128, 128, 128, 0.05);
 }
 .accordion-header.active {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    border-bottom: none;
 }
 .accordion-body {
     max-height: 0;
@@ -347,6 +350,7 @@ function toggleAccordion(button) {
     border-top: none;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    overflow-x: auto;
 }
 
 /* Improve readability of Mermaid SVGs in dark mode */
@@ -357,5 +361,20 @@ function toggleAccordion(button) {
     border-radius: 8px;
     padding: 16px;
     /* Optional inner border for contrast */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .accordion-header {
+        font-size: 0.95rem;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+    .accordion-header i {
+        margin-top: 0.2rem;
+    }
+    .accordion-inner {
+        padding: 1rem;
+    }
 }
 </style>
