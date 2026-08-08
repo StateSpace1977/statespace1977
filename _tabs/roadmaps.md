@@ -21,7 +21,7 @@ To successfully graduate, students must complete the following:
 ---
 
 <div class="roadmap-grid">
-    <a href="/roadmap-pure-controls/" class="roadmap-card">
+    <a href="{{ '/roadmap-pure-controls/' | relative_url }}" class="roadmap-card">
         <div class="card-icon"><i class="fas fa-cogs"></i></div>
         <div class="card-content">
             <h3>1. Pure Controls & Systems Theory</h3>
@@ -29,7 +29,7 @@ To successfully graduate, students must complete the following:
         </div>
     </a>
 
-    <a href="/roadmap-robotics/" class="roadmap-card">
+    <a href="{{ '/roadmap-robotics/' | relative_url }}" class="roadmap-card">
         <div class="card-icon"><i class="fas fa-robot"></i></div>
         <div class="card-content">
             <h3>2. Robotics & Autonomous Systems</h3>
@@ -37,7 +37,7 @@ To successfully graduate, students must complete the following:
         </div>
     </a>
 
-    <a href="/roadmap-aiml/" class="roadmap-card">
+    <a href="{{ '/roadmap-aiml/' | relative_url }}" class="roadmap-card">
         <div class="card-icon"><i class="fas fa-brain"></i></div>
         <div class="card-content">
             <h3>3. AI, Machine Learning & Data Science</h3>
@@ -45,7 +45,7 @@ To successfully graduate, students must complete the following:
         </div>
     </a>
 
-    <a href="/roadmap-sde/" class="roadmap-card">
+    <a href="{{ '/roadmap-sde/' | relative_url }}" class="roadmap-card">
         <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
         <div class="card-content">
             <h3>4. Software Development Engineering</h3>
@@ -53,7 +53,7 @@ To successfully graduate, students must complete the following:
         </div>
     </a>
 
-    <a href="/roadmap-quant/" class="roadmap-card">
+    <a href="{{ '/roadmap-quant/' | relative_url }}" class="roadmap-card">
         <div class="card-icon"><i class="fas fa-chart-line"></i></div>
         <div class="card-content">
             <h3>5. Quantitative Finance & OR</h3>
