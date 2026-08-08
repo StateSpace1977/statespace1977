@@ -7,13 +7,19 @@
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+(function initD3Tree() {
+    if (typeof d3 === 'undefined') {
+        setTimeout(initD3Tree, 50);
+        return;
+    }
     if (!window.roadmapData) return;
     
-    const treeData = window.roadmapData;
-    
     const container = document.getElementById('d3-tree-container');
-    const width = container.clientWidth;
+    if (!container) return;
+    if (container.querySelector('svg')) return; // Prevent double render
+    
+    const treeData = window.roadmapData;
+    const width = container.clientWidth || 800;
     const height = 600;
     const margin = {top: 40, right: 180, bottom: 40, left: 180};
 
@@ -165,5 +171,5 @@ document.addEventListener("DOMContentLoaded", function() {
             update(d);
         }
     }
-});
+})();
 </script>
