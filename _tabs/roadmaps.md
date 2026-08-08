@@ -5,28 +5,24 @@ order: 4
 mermaid: true
 ---
 
-# SysCon M.Tech Curriculum Rules 📜
+## M.Tech Curriculum Guidelines
 
-Before diving into the domain pathways, here is the strict structure you must follow to complete your M.Tech at SysCon:
+The M.Tech program in Systems and Control Engineering requires students to complete a structured set of core and elective courses alongside a Master's Thesis Project. The curriculum is designed to provide both a strong theoretical foundation and specialized domain expertise.
 
-> [!IMPORTANT]
-> - **4 Core Courses** (Typically completed in Sem 1 & 2)
-> - **5 Department Electives** (Spread across Sem 1 to 3)
-> - **1 Lab Course** (SC 626 in Sem 2)
-> - **1 Seminar** (SC 694 in Sem 2)
-> - **MTP (Master's Thesis Project)** (Starts in Sem 3, concludes in Sem 4)
+### Degree Requirements
+To successfully graduate, students must complete the following:
+
+- **Core Courses (4):** Foundational coursework typically completed during Semesters 1 and 2.
+- **Department Electives (5):** Specialized courses chosen based on your selected domain pathway, distributed across Semesters 1 to 3.
+- **Laboratory Course (1):** SC 626 (Systems and Control Laboratory), taken in Semester 2.
+- **Seminar (1):** SC 694, taken in Semester 2.
+- **Master's Thesis Project (MTP):** A two-stage research project starting in Semester 3 and concluding in Semester 4.
 
 ---
 
-<div class="roadmap-accordion">
-
-<div class="roadmap-item">
-<button class="accordion-header">
-    1. Pure Controls & Systems Theory
-    <i class="fas fa-chevron-down"></i>
-</button>
-<div class="accordion-body">
-<div class="accordion-inner">
+<details class="roadmap-details">
+<summary class="roadmap-summary">1. Pure Controls & Systems Theory</summary>
+<div class="roadmap-content" markdown="1">
 
 This path is for students aiming for PhDs, Core Engineering jobs (ISRO, DRDO, Aerospace), or hardcore theoretical research.
 
@@ -69,16 +65,11 @@ flowchart TD
 ```
 
 </div>
-</div>
-</div>
+</details>
 
-<div class="roadmap-item">
-<button class="accordion-header">
-    2. Robotics & Autonomous Systems
-    <i class="fas fa-chevron-down"></i>
-</button>
-<div class="accordion-body">
-<div class="accordion-inner">
+<details class="roadmap-details">
+<summary class="roadmap-summary">2. Robotics & Autonomous Systems</summary>
+<div class="roadmap-content" markdown="1">
 
 For students targeting robotics startups, autonomous vehicle companies, and embedded systems.
 
@@ -120,16 +111,11 @@ flowchart TD
 ```
 
 </div>
-</div>
-</div>
+</details>
 
-<div class="roadmap-item">
-<button class="accordion-header">
-    3. AI, Machine Learning & Data Science
-    <i class="fas fa-chevron-down"></i>
-</button>
-<div class="accordion-body">
-<div class="accordion-inner">
+<details class="roadmap-details">
+<summary class="roadmap-summary">3. AI, Machine Learning & Data Science</summary>
+<div class="roadmap-content" markdown="1">
 
 The most popular path for students targeting Data Scientist, ML Engineer, or Applied Scientist roles.
 
@@ -173,16 +159,11 @@ flowchart TD
 ```
 
 </div>
-</div>
-</div>
+</details>
 
-<div class="roadmap-item">
-<button class="accordion-header">
-    4. Software Development Engineering (SDE)
-    <i class="fas fa-chevron-down"></i>
-</button>
-<div class="accordion-body">
-<div class="accordion-inner">
+<details class="roadmap-details">
+<summary class="roadmap-summary">4. Software Development Engineering (SDE)</summary>
+<div class="roadmap-content" markdown="1">
 
 Focused purely on cracking top-tier software engineering placements (FAANG).
 
@@ -224,16 +205,11 @@ flowchart TD
 ```
 
 </div>
-</div>
-</div>
+</details>
 
-<div class="roadmap-item">
-<button class="accordion-header">
-    5. Quantitative Finance & OR
-    <i class="fas fa-chevron-down"></i>
-</button>
-<div class="accordion-body">
-<div class="accordion-inner">
+<details class="roadmap-details">
+<summary class="roadmap-summary">5. Quantitative Finance & OR</summary>
+<div class="roadmap-content" markdown="1">
 
 For students aiming for HFT firms, Quant Analyst roles, or supply chain optimization.
 
@@ -276,116 +252,66 @@ flowchart TD
 ```
 
 </div>
-</div>
-</div>
-
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const headers = document.querySelectorAll('.accordion-header');
-    headers.forEach(button => {
-        button.addEventListener('click', function() {
-            // Find the accordion body (accounting for possible injected <p> tags)
-            let body = this.nextElementSibling;
-            while(body && !body.classList.contains('accordion-body')) {
-                body = body.nextElementSibling;
-            }
-            if (!body) return;
-            
-            const icon = this.querySelector('i');
-            
-            this.classList.toggle('active');
-            
-            if (this.classList.contains('active')) {
-                body.style.maxHeight = body.scrollHeight + "px";
-                if(icon) {
-                    icon.classList.remove('fa-chevron-down');
-                    icon.classList.add('fa-chevron-up');
-                }
-            } else {
-                body.style.maxHeight = "0";
-                if(icon) {
-                    icon.classList.remove('fa-chevron-up');
-                    icon.classList.add('fa-chevron-down');
-                }
-            }
-        });
-    });
-});
-</script>
+</details>
 
 <style>
-.roadmap-accordion {
-    margin-top: 2rem;
-}
-.roadmap-item {
+.roadmap-details {
     margin-bottom: 1rem;
+    border: 1px solid var(--card-border-color, #444);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    background: var(--card-bg);
+    background: transparent;
+    overflow: hidden;
 }
-.accordion-header {
-    width: 100%;
-    text-align: left;
+.roadmap-summary {
     padding: 1.25rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
     background: transparent;
     color: inherit;
-    border: 1px solid var(--card-border-color);
-    border-radius: 8px;
-    cursor: pointer;
+    list-style: none; /* Hide default arrow in some browsers */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: background 0.3s ease, border-radius 0.3s ease;
-    word-break: break-word;
-    gap: 10px;
+    transition: background 0.3s ease;
 }
-.accordion-header:hover {
+/* Custom dropdown arrow for summary */
+.roadmap-summary::after {
+    content: '\25BC';
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+}
+.roadmap-details[open] .roadmap-summary::after {
+    transform: rotate(180deg);
+}
+.roadmap-details[open] .roadmap-summary {
+    border-bottom: 1px solid var(--card-border-color, #444);
     background: rgba(128, 128, 128, 0.05);
 }
-.accordion-header.active {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom: none;
+.roadmap-summary:hover {
+    background: rgba(128, 128, 128, 0.05);
 }
-.accordion-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
+/* Hide default details marker in webkit */
+.roadmap-summary::-webkit-details-marker {
+    display: none;
 }
-.accordion-inner {
+.roadmap-content {
     padding: 1.5rem;
-    border: 1px solid var(--card-border-color);
-    border-top: none;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     overflow-x: auto;
 }
-
-/* Improve readability of Mermaid SVGs in dark mode */
 .mermaid svg {
     max-width: 100%;
     height: auto;
-    background-color: var(--card-bg) !important;
+    background-color: var(--card-bg, #1e1e1e) !important;
     border-radius: 8px;
     padding: 16px;
-    /* Optional inner border for contrast */
 }
-
-/* Responsiveness */
 @media (max-width: 768px) {
-    .accordion-header {
+    .roadmap-summary {
         font-size: 0.95rem;
         padding: 1rem;
-        align-items: flex-start;
     }
-    .accordion-header i {
-        margin-top: 0.2rem;
-    }
-    .accordion-inner {
+    .roadmap-content {
         padding: 1rem;
     }
 }
