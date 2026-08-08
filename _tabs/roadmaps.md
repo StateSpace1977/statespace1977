@@ -21,7 +21,7 @@ Before diving into the domain pathways, here is the strict structure you must fo
 <div class="roadmap-accordion">
 
 <div class="roadmap-item">
-<button class="accordion-header" onclick="toggleAccordion(this)">
+<button class="accordion-header">
     1. Pure Controls & Systems Theory
     <i class="fas fa-chevron-down"></i>
 </button>
@@ -73,7 +73,7 @@ flowchart TD
 </div>
 
 <div class="roadmap-item">
-<button class="accordion-header" onclick="toggleAccordion(this)">
+<button class="accordion-header">
     2. Robotics & Autonomous Systems
     <i class="fas fa-chevron-down"></i>
 </button>
@@ -124,7 +124,7 @@ flowchart TD
 </div>
 
 <div class="roadmap-item">
-<button class="accordion-header" onclick="toggleAccordion(this)">
+<button class="accordion-header">
     3. AI, Machine Learning & Data Science
     <i class="fas fa-chevron-down"></i>
 </button>
@@ -177,7 +177,7 @@ flowchart TD
 </div>
 
 <div class="roadmap-item">
-<button class="accordion-header" onclick="toggleAccordion(this)">
+<button class="accordion-header">
     4. Software Development Engineering (SDE)
     <i class="fas fa-chevron-down"></i>
 </button>
@@ -228,7 +228,7 @@ flowchart TD
 </div>
 
 <div class="roadmap-item">
-<button class="accordion-header" onclick="toggleAccordion(this)">
+<button class="accordion-header">
     5. Quantitative Finance & OR
     <i class="fas fa-chevron-down"></i>
 </button>
@@ -282,25 +282,37 @@ flowchart TD
 </div>
 
 <script>
-function toggleAccordion(button) {
-    const body = button.nextElementSibling;
-    const icon = button.querySelector('i');
-    
-    // Toggle active state
-    button.classList.toggle('active');
-    
-    if (button.classList.contains('active')) {
-        // Expand
-        body.style.maxHeight = body.scrollHeight + "px";
-        icon.classList.remove('fa-chevron-down');
-        icon.classList.add('fa-chevron-up');
-    } else {
-        // Collapse
-        body.style.maxHeight = "0";
-        icon.classList.remove('fa-chevron-up');
-        icon.classList.add('fa-chevron-down');
-    }
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const headers = document.querySelectorAll('.accordion-header');
+    headers.forEach(button => {
+        button.addEventListener('click', function() {
+            // Find the accordion body (accounting for possible injected <p> tags)
+            let body = this.nextElementSibling;
+            while(body && !body.classList.contains('accordion-body')) {
+                body = body.nextElementSibling;
+            }
+            if (!body) return;
+            
+            const icon = this.querySelector('i');
+            
+            this.classList.toggle('active');
+            
+            if (this.classList.contains('active')) {
+                body.style.maxHeight = body.scrollHeight + "px";
+                if(icon) {
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                }
+            } else {
+                body.style.maxHeight = "0";
+                if(icon) {
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            }
+        });
+    });
+});
 </script>
 
 <style>
