@@ -9,6 +9,12 @@
 <script>
 (function initD3Tree() {
     if (typeof d3 === 'undefined') {
+        if (!document.getElementById('d3-cdn')) {
+            var s = document.createElement('script');
+            s.id = 'd3-cdn';
+            s.src = 'https://d3js.org/d3.v7.min.js';
+            document.head.appendChild(s);
+        }
         setTimeout(initD3Tree, 50);
         return;
     }
