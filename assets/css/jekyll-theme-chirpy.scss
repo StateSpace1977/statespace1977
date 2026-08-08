@@ -499,7 +499,8 @@ html[data-theme="dark"] .badge-neutral {
 
 
 /* Hide Right Sidebar Elements */
+.access,
 #access-lastmod,
-#access-tags {
+.panel-heading + .d-flex.flex-wrap {
   display: none !important;
 }
