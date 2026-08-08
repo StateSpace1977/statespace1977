@@ -24,6 +24,16 @@ layout: home
 </script>
 
 <style>
+/* Hide the right sidebar on the home page and expand main content */
+#panel-wrapper {
+  display: none !important;
+}
+main[aria-label="Main Content"], #tail-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
 /* ============================================================
    StateSpace Homepage Sections — All styles scoped to .ss-home-*
    These styles ONLY apply to elements inside this page.
