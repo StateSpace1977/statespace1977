@@ -131,7 +131,8 @@
 
             const nodeEnter = node.enter().append('g')
                 .attr('class', 'node')
-                .attr("transform", d => `translate(${source.y0},${source.x0})`)
+                .attr("transform", d => `translate(${d.y},${d.x})`)
+                .style("opacity", 0)
                 .on('click', click);
 
             /*  Node Circles */
@@ -158,6 +159,7 @@
             const nodeUpdate = nodeEnter.merge(node);
             nodeUpdate.transition()
                 .duration(duration)
+                .style("opacity", 1)
                 .attr("transform", d => `translate(${d.y},${d.x})`);
 
             nodeUpdate.select('circle').transition()
@@ -174,7 +176,7 @@
             /*  Node Exit */
             const nodeExit = node.exit().transition()
                 .duration(duration)
-                .attr("transform", d => `translate(${source.y},${source.x})`)
+                .style("opacity", 0)
                 .remove();
 
             nodeExit.select('circle')
@@ -192,21 +194,26 @@
                 .style("fill", "none")
                 .style("stroke", "var(--card-border-color, #cbd5e1)")
                 .style("stroke-width", "2px")
-                .attr('d', function(d){
-                    const o = {x: source.x0, y: source.y0};
-                    return diagonal(o, o);
+                .attr('d', d => diagonal(d, d.parent))
+                .attr("stroke-dasharray", function(d) {
+                    const length = this.getTotalLength();
+                    return length + " " + length;
+                })
+                .attr("stroke-dashoffset", function(d) {
+                    return this.getTotalLength();
                 });
 
             const linkUpdate = linkEnter.merge(link);
             linkUpdate.transition()
                 .duration(duration)
-                .attr('d', d => diagonal(d, d.parent));
+                .attr('d', d => diagonal(d, d.parent))
+                .attr("stroke-dasharray", "2000 2000")
+                .attr("stroke-dashoffset", 0);
 
             const linkExit = link.exit().transition()
                 .duration(duration)
-                .attr('d', function(d) {
-                    const o = {x: source.x, y: source.y};
-                    return diagonal(o, o);
+                .attr("stroke-dashoffset", function(d) {
+                    return this.getTotalLength();
                 })
                 .remove();
 
