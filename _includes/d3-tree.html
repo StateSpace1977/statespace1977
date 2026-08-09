@@ -205,7 +205,7 @@
                 .attr("id", d => "clip-" + d.id)
                 .append("rect")
                 .attr("class", "text-revealer")
-                .attr("x", d => d.children || d._children ? -350 : 0)
+                .attr("x", d => d.children || d._children ? -800 : 0)
                 .attr("y", -30)
                 .attr("height", 60)
                 .attr("width", 0);
@@ -244,8 +244,8 @@
                 .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
                 .duration(600)
                 .ease(d3.easeLinear)
-                .attr("width", 350)
-                .on("end", d => { d.rendered = true; });
+                .attr("width", 800)
+                .on("end", (event, d) => { d.rendered = true; });
 
             /* Exiting nodes fade out */
             const nodeExit = node.exit().transition()
