@@ -14,6 +14,7 @@ To successfully graduate, students must complete the following:
 
 - **Core Courses (4):** Foundational coursework typically completed during Semesters 1 and 2.
 - **Department Electives (5):** Specialized courses chosen based on your selected domain pathway, distributed across Semesters 1 to 3.
+- **Institute Elective (1):** A 6-credit open elective chosen from any department across the institute, typically completed in Semester 4 (or Semester 2).
 - **Laboratory Course (1):** SC 626 (Systems and Control Laboratory), taken in Semester 2.
 - **Seminar (1):** SC 694, taken in Semester 2.
 - **Master's Thesis Project (MTP):** A two-stage research project starting in Semester 3 and concluding in Semester 4.
