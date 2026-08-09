@@ -67,7 +67,51 @@
         /*  We use cluster for a tidy tree where leaves don't have to align at the exact same depth, but tree() spreads them beautifully */
         const treeMap = d3.tree().nodeSize([45, 250]); /*  Spacing between nodes */
 
+        /*  Toggle children on click */
+        function click(event, d) {
+            if (d.children) {
+                d._children = d.children;
+                d.children = null;
+            } else {
+                d.children = d._children;
+                d._children = null;
+            }
+            update(d);
+        }
+
+        /*  Collapse all nodes initially */
+        function collapse(d) {
+            if(d.children) {
+                d._children = d.children;
+                d._children.forEach(collapse);
+                d.children = null;
+            }
+        }
+
+        if (root.children) {
+            root.children.forEach(collapse);
+            /* Collapse root to start from a single node */
+            root._children = root.children;
+            root.children = null;
+        }
+
         update(root);
+
+        /* Beautiful cascading growth animation */
+        setTimeout(() => {
+            if (root._children) {
+                click(null, root); /* Expand domain node */
+                setTimeout(() => {
+                    if (root.children) {
+                        root.children.forEach(semester => {
+                            if (semester._children) {
+                                click(null, semester); /* Expand semesters */
+                            }
+                        });
+                    }
+                }, 600);
+            }
+        }, 400);
 
         function update(source) {
             const treeDataLayout = treeMap(root);
@@ -173,18 +217,6 @@
                         C ${(s.y + d.y) / 2} ${s.x},
                           ${(s.y + d.y) / 2} ${d.x},
                           ${d.y} ${d.x}`;
-            }
-
-            /*  Toggle children on click */
-            function click(event, d) {
-                if (d.children) {
-                    d._children = d.children;
-                    d.children = null;
-                } else {
-                    d.children = d._children;
-                    d._children = null;
-                }
-                update(d);
             }
         }
     } catch(e) {
