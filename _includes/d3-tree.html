@@ -28,7 +28,7 @@
             return;
         }
         
-        // Clear any ghost/duplicate SVG to prevent rendering issues across Turbolinks visits
+        /*  Clear any ghost/duplicate SVG to prevent rendering issues across Turbolinks visits */
         container.innerHTML = "";
         
         const treeData = window.roadmapData;
@@ -36,25 +36,25 @@
         const height = container.clientHeight || 600;
         const margin = {top: 40, right: 180, bottom: 40, left: 180};
 
-        // Create the SVG container
+        /*  Create the SVG container */
         const svg = d3.select("#d3-tree-container")
             .append("svg")
             .attr("viewBox", `0 0 ${width} ${height}`)
             .attr("width", "100%")
             .attr("height", "100%");
             
-        // Add a group for zooming/panning
+        /*  Add a group for zooming/panning */
         const g = svg.append("g")
             .attr("transform", `translate(${margin.left},${height/2})`);
 
-        // Enable Zoom & Pan
+        /*  Enable Zoom & Pan */
         const zoom = d3.zoom()
             .scaleExtent([0.1, 3])
             .on("zoom", (event) => {
                 g.attr("transform", event.transform);
             });
             
-        // Initial transform to center the root vertically
+        /*  Initial transform to center the root vertically */
         svg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(margin.left, height/2));
 
         let i = 0;
@@ -63,8 +63,8 @@
         root.x0 = height / 2;
         root.y0 = 0;
 
-        // We use cluster for a tidy tree where leaves don't have to align at the exact same depth, but tree() spreads them beautifully
-        const treeMap = d3.tree().nodeSize([45, 250]); // Spacing between nodes
+        /*  We use cluster for a tidy tree where leaves don't have to align at the exact same depth, but tree() spreads them beautifully */
+        const treeMap = d3.tree().nodeSize([45, 250]); /*  Spacing between nodes */
 
         update(root);
 
@@ -73,10 +73,10 @@
             const nodes = treeDataLayout.descendants();
             const links = treeDataLayout.descendants().slice(1);
 
-            // Normalize depth
+            /*  Normalize depth */
             nodes.forEach(d => { d.y = d.depth * 250; });
 
-            // 1. Nodes
+            /*  1. Nodes */
             const node = g.selectAll('g.node')
                 .data(nodes, d => d.id || (d.id = ++i));
 
@@ -85,14 +85,14 @@
                 .attr("transform", d => `translate(${source.y0},${source.x0})`)
                 .on('click', click);
 
-            // Node Circles
+            /*  Node Circles */
             nodeEnter.append('circle')
                 .attr('r', 1e-6)
                 .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
                 .style("stroke", "#0284c7")
                 .style("stroke-width", "3px");
 
-            // Node Labels
+            /*  Node Labels */
             nodeEnter.append('text')
                 .attr("dy", ".35em")
                 .attr("x", d => d.children || d._children ? -13 : 13)
@@ -103,9 +103,9 @@
                 .style("font-weight", d => d.depth < 2 ? "bold" : "500")
                 .style("font-family", "inherit")
                 .style("fill-opacity", 1e-6)
-                .style("text-shadow", "0 1px 3px var(--card-bg, #fff)"); // better readability
+                .style("text-shadow", "0 1px 3px var(--card-bg, #fff)"); /*  better readability */
 
-            // Node Update
+            /*  Node Update */
             const nodeUpdate = nodeEnter.merge(node);
             nodeUpdate.transition()
                 .duration(duration)
@@ -122,7 +122,7 @@
                 .duration(duration)
                 .style("fill-opacity", 1);
 
-            // Node Exit
+            /*  Node Exit */
             const nodeExit = node.exit().transition()
                 .duration(duration)
                 .attr("transform", d => `translate(${source.y},${source.x})`)
@@ -134,7 +134,7 @@
             nodeExit.select('text')
                 .style('fill-opacity', 1e-6);
 
-            // 2. Links
+            /*  2. Links */
             const link = g.selectAll('path.link')
                 .data(links, d => d.id);
 
@@ -166,7 +166,7 @@
                 d.y0 = d.y;
             });
 
-            // Creates a curved (diagonal) path from parent to the child nodes
+            /*  Creates a curved (diagonal) path from parent to the child nodes */
             function diagonal(s, d) {
                 return `M ${s.y} ${s.x}
                         C ${(s.y + d.y) / 2} ${s.x},
@@ -174,7 +174,7 @@
                           ${d.y} ${d.x}`;
             }
 
-            // Toggle children on click
+            /*  Toggle children on click */
             function click(event, d) {
                 if (d.children) {
                     d._children = d.children;
