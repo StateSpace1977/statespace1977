@@ -504,3 +504,8 @@ html[data-theme="dark"] .badge-neutral {
 .panel-heading + .d-flex.flex-wrap {
   display: none !important;
 }
+
+/* Hide Heading Anchor Links (#) globally */
+.anchor {
+  display: none !important;
+}
