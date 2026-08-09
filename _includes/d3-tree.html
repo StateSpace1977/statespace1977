@@ -109,9 +109,11 @@
                     if (root.children) {
                         root.children.forEach(semester => {
                             if (semester._children) {
-                                click(null, semester); /* Expand semesters */
+                                semester.children = semester._children;
+                                semester._children = null;
                             }
                         });
+                        update(root);
                     }
                 }, 1600); /* Wait for the first branches to finish growing! */
             }
@@ -135,7 +137,7 @@
                 .style("stroke", "var(--card-border-color, #cbd5e1)")
                 .style("stroke-width", "2px")
                 .attr('d', d => {
-                    const o = {x: source.x0 || 0, y: source.y0 || 0};
+                    const o = {x: (d.parent ? d.parent.x0 : source.x0) || 0, y: (d.parent ? d.parent.y0 : source.y0) || 0};
                     return diagonal(o, d);
                 });
 
@@ -147,7 +149,7 @@
                 .attr('d', d => diagonal(d.parent, d));
 
             /* Entering links grow outwards */
-            linkEnter.transition()
+            linkEnter.transition("grow")
                 .duration(duration)
                 .attrTween("stroke-dasharray", function() {
                     return function(t) {
