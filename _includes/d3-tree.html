@@ -157,20 +157,25 @@
 
             /*  Node Update */
             const nodeUpdate = nodeEnter.merge(node);
+            
             nodeUpdate.transition()
-                .duration(duration)
+                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
+                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
                 .style("opacity", 1)
-                .attr("transform", d => `translate(${d.y},${d.x})`);
+                .attr("transform", d => `translate(${d.y},${d.x})`)
+                .on("end", d => { d.rendered = true; });
 
             nodeUpdate.select('circle').transition()
-                .duration(duration)
+                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
+                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
                 .attr('r', 8)
                 .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
                 .style("stroke", "#0284c7")
                 .attr('cursor', 'pointer');
 
             nodeUpdate.select('text').transition()
-                .duration(duration)
+                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
+                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
                 .style("fill-opacity", 1);
 
             /*  Node Exit */
