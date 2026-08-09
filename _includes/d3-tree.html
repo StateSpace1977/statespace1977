@@ -101,7 +101,7 @@
 
         update(root);
 
-        /* Beautiful cascading growth animation */
+        /* Timelapse growth animation */
         setTimeout(() => {
             if (root._children) {
                 click(null, root); /* Expand domain node */
@@ -113,7 +113,7 @@
                             }
                         });
                     }
-                }, 600);
+                }, 1600); // Wait for the first branches to finish growing!
             }
         }, 400);
 
@@ -125,72 +125,7 @@
             /*  Normalize depth */
             nodes.forEach(d => { d.y = d.depth * 250; });
 
-            /*  1. Nodes */
-            const node = g.selectAll('g.node')
-                .data(nodes, d => d.id || (d.id = ++i));
-
-            const nodeEnter = node.enter().append('g')
-                .attr('class', 'node')
-                .attr("transform", d => `translate(${d.y},${d.x})`)
-                .style("opacity", 0)
-                .on('click', click);
-
-            /*  Node Circles */
-            nodeEnter.append('circle')
-                .attr('r', 1e-6)
-                .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
-                .style("stroke", "#0284c7")
-                .style("stroke-width", "3px");
-
-            /*  Node Labels */
-            nodeEnter.append('text')
-                .attr("dy", ".35em")
-                .attr("x", d => d.children || d._children ? -13 : 13)
-                .attr("text-anchor", d => d.children || d._children ? "end" : "start")
-                .text(d => d.data.name)
-                .style("fill", "var(--heading-color, #333)")
-                .style("font-size", d => d.depth === 0 ? "18px" : d.depth === 1 ? "15px" : "13px")
-                .style("font-weight", d => d.depth < 2 ? "bold" : "500")
-                .style("font-family", "inherit")
-                .style("fill-opacity", 1e-6)
-                .style("text-shadow", "0 1px 3px var(--card-bg, #fff)"); /*  better readability */
-
-            /*  Node Update */
-            const nodeUpdate = nodeEnter.merge(node);
-            
-            nodeUpdate.transition()
-                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
-                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
-                .style("opacity", 1)
-                .attr("transform", d => `translate(${d.y},${d.x})`)
-                .on("end", d => { d.rendered = true; });
-
-            nodeUpdate.select('circle').transition()
-                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
-                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
-                .attr('r', 8)
-                .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
-                .style("stroke", "#0284c7")
-                .attr('cursor', 'pointer');
-
-            nodeUpdate.select('text').transition()
-                .duration(d => (d.rendered || d.depth === 0) ? duration : 400)
-                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
-                .style("fill-opacity", 1);
-
-            /*  Node Exit */
-            const nodeExit = node.exit().transition()
-                .duration(duration)
-                .style("opacity", 0)
-                .remove();
-
-            nodeExit.select('circle')
-                .attr('r', 1e-6);
-
-            nodeExit.select('text')
-                .style('fill-opacity', 1e-6);
-
-            /*  2. Links */
+            /*  1. Links */
             const link = g.selectAll('path.link')
                 .data(links, d => d.id);
 
@@ -199,27 +134,121 @@
                 .style("fill", "none")
                 .style("stroke", "var(--card-border-color, #cbd5e1)")
                 .style("stroke-width", "2px")
-                .attr('d', d => diagonal(d, d.parent))
-                .attr("stroke-dasharray", function(d) {
-                    const length = this.getTotalLength();
-                    return length + " " + length;
-                })
-                .attr("stroke-dashoffset", function(d) {
-                    return this.getTotalLength();
+                .attr('d', d => {
+                    const o = {x: source.x0 || 0, y: source.y0 || 0};
+                    return diagonal(o, d);
                 });
 
             const linkUpdate = linkEnter.merge(link);
+            
+            /* Existing links morph to new position */
             linkUpdate.transition()
                 .duration(duration)
-                .attr('d', d => diagonal(d, d.parent))
-                .attr("stroke-dasharray", "2000 2000")
-                .attr("stroke-dashoffset", 0);
+                .attr('d', d => diagonal(d.parent, d));
 
-            const linkExit = link.exit().transition()
+            /* Entering links grow outwards */
+            linkEnter.transition()
                 .duration(duration)
-                .attr("stroke-dashoffset", function(d) {
-                    return this.getTotalLength();
+                .attrTween("stroke-dasharray", function() {
+                    return function(t) {
+                        const length = this.getTotalLength();
+                        return length + " " + length;
+                    };
                 })
+                .attrTween("stroke-dashoffset", function() {
+                    return function(t) {
+                        const length = this.getTotalLength();
+                        return length * (1 - t);
+                    };
+                })
+                .on("end", function() {
+                    d3.select(this).style("stroke-dasharray", "none");
+                });
+
+            /* Exiting links retract inwards */
+            const linkExit = link.exit();
+            linkExit.style("stroke-dasharray", function() {
+                const length = this.getTotalLength();
+                return length + " " + length;
+            })
+            .transition()
+                .duration(duration)
+                .attrTween("stroke-dashoffset", function() {
+                    return function(t) {
+                        const length = this.getTotalLength();
+                        return length * t;
+                    };
+                })
+                .remove();
+
+            /*  2. Nodes */
+            const node = g.selectAll('g.node')
+                .data(nodes, d => d.id || (d.id = ++i));
+
+            const nodeEnter = node.enter().append('g')
+                .attr('class', 'node')
+                .attr("transform", d => `translate(${d.y},${d.x})`)
+                .each(d => { d.rendered = false; })
+                .on('click', click);
+
+            /* Node Circles (hidden initially) */
+            nodeEnter.append('circle')
+                .attr('r', 1e-6)
+                .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
+                .style("stroke", "#0284c7")
+                .style("stroke-width", "3px");
+
+            /* Text ClipPath for left-to-right reveal */
+            nodeEnter.append("clipPath")
+                .attr("id", d => "clip-" + d.id)
+                .append("rect")
+                .attr("class", "text-revealer")
+                .attr("x", d => d.children || d._children ? -350 : 0)
+                .attr("y", -30)
+                .attr("height", 60)
+                .attr("width", 0);
+
+            /*  Node Labels */
+            nodeEnter.append('text')
+                .attr("clip-path", d => `url(#clip-${d.id})`)
+                .attr("dy", ".35em")
+                .attr("x", d => d.children || d._children ? -13 : 13)
+                .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+                .text(d => d.data.name)
+                .style("fill", "var(--heading-color, #333)")
+                .style("font-size", d => d.depth === 0 ? "18px" : d.depth === 1 ? "15px" : "13px")
+                .style("font-weight", d => d.depth < 2 ? "bold" : "500")
+                .style("font-family", "inherit")
+                .style("text-shadow", "0 1px 3px var(--card-bg, #fff)");
+
+            const nodeUpdate = nodeEnter.merge(node);
+            
+            /* Nodes slide to new position (if they moved) */
+            nodeUpdate.transition()
+                .duration(duration)
+                .attr("transform", d => `translate(${d.y},${d.x})`);
+
+            /* Pop in circles after branch finishes growing */
+            nodeUpdate.select('circle').transition()
+                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
+                .duration(400)
+                .attr('r', 8)
+                .style("fill", d => d._children ? "#0284c7" : "var(--card-bg, #fff)")
+                .style("stroke", "#0284c7")
+                .attr('cursor', 'pointer');
+
+            /* Write text from left to right */
+            nodeUpdate.select('.text-revealer').transition()
+                .delay(d => (d.rendered || d.depth === 0) ? 0 : duration)
+                .duration(600)
+                .ease(d3.easeLinear)
+                .attr("width", 350)
+                .on("end", d => { d.rendered = true; });
+
+            /* Exiting nodes fade out */
+            const nodeExit = node.exit().transition()
+                .duration(duration)
+                .style("opacity", 0)
                 .remove();
 
             nodes.forEach(d => {
