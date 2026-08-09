@@ -1,4 +1,4 @@
-<div id="d3-tree-container" style="width: 100%; height: 700px; margin: 40px 0; overflow: hidden; cursor: grab;">
+<div id="d3-tree-container" style="width: 100%; height: 700px; margin: 40px 0; overflow: visible; cursor: grab;">
 </div>
 
 <p style="text-align: center; color: var(--text-muted-color); font-size: 0.9rem;">
@@ -33,15 +33,16 @@
         
         const treeData = window.roadmapData;
         const width = container.clientWidth || 800;
-        const height = container.clientHeight || 600;
-        const margin = {top: 40, right: 180, bottom: 40, left: 180};
+        const height = container.clientHeight || 700;
+        const margin = {top: 40, right: 180, bottom: 40, left: 100}; /* reduced left margin */
 
         /*  Create the SVG container */
         const svg = d3.select("#d3-tree-container")
             .append("svg")
             .attr("viewBox", `0 0 ${width} ${height}`)
             .attr("width", "100%")
-            .attr("height", "100%");
+            .attr("height", "100%")
+            .style("overflow", "visible");
             
         /*  Add a group for zooming/panning */
         const g = svg.append("g")
